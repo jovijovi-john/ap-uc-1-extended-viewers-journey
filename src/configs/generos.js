@@ -1,0 +1,15 @@
+export const generos = {
+  "A": "violet",
+  "telejornalismo": "blue",
+  "reality": "darkPurple",
+  "miniseries": "darkBlue",
+  "educacao": "green",
+  "infantil": "pink",
+  "entrevistas": "yellow",
+  "documentarios": "brown",
+  "filmes": "red",
+  "esportes": "darkGreen",
+  "telenovelas": "purple",
+  "religiao": "orange",
+  "musical": "skyblue",
+};
