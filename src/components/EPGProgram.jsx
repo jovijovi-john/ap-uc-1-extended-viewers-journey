@@ -10,19 +10,20 @@ import { MdOutlineMonitor } from "react-icons/md";
 import { indicacoes } from "../configs/indicacoes";
 import ScaleFocusHover from "./ScaleFocusHover";
 
-export default function EPGProgram({ index, emissora, createReference }) {
+export default function EPGProgram({ broadcasterIndex, broadcaster, createReference }) {
 
   const navigate = useNavigate();
 
   const handleClick = (program) => {
     navigate("/EPG-InfoDTV", {
       state: {
-        program
+        program,
+        broadcasterIndex
       }
     })
   }
 
-  const programs = emissora.programs.slice(0, 3)
+  const programs = broadcaster.programs.slice(0, 3)
 
   return (
     <div className="flex flex-row justify-center align-center h-[200px] rounded-lg w-full ">
@@ -34,11 +35,11 @@ export default function EPGProgram({ index, emissora, createReference }) {
           {/* <MdOutlineMonitor size={120} className="text-zinc-400" /> */}
 
           <div className="overflow-hidden w-[225px] h-[125px] rounded-lg">
-            <img src={emissora.icon} alt="" className="object-cover w-full h-full" />
+            <img src={broadcaster.icon} alt="" className="object-cover w-full h-full" />
           </div>
 
           <span className="text-white text-3xl mt-5">
-            {emissora.name}
+            {broadcaster.name}
           </span>
         </ScaleFocusHover>
       </div>
@@ -51,33 +52,33 @@ export default function EPGProgram({ index, emissora, createReference }) {
       </ScaleFocusHover>
 
       <div className="flex flex-1 h-full ">
-        {programs.map((programa, indexPrograma) => {
+        {programs.map((program, indexProgram) => {
           return (
             <ScaleFocusHover
-              key={indexPrograma}
-              onClick={() => handleClick(programa)}
+              key={indexProgram}
+              onClick={() => handleClick(program)}
               createReference={createReference}
               classNames={"flex p-3 bg-zinc-700 rounded-lg mx-5 flex-1 flex-col items-center justify-between w-[400px]"}
             >
               {/* header content */}
               <header className="flex w-full flex-row items-center gap-2 ">
                 <img
-                  src={indicacoes[programa.rating]}
+                  src={indicacoes[program.rating]}
                   className="w-8 h-8"
                   alt=""
                 />
 
                 <span className="text-white cursor-default">
-                  {programa.startTime} - {programa.endTime}
+                  {program.startTime} - {program.endTime}
                 </span>
 
-                {programa.isOnAir && (
+                {program.isOnAir && (
                   <div className="bg-red-700 text-white py-[0.125rem] px-4 cursor-default">
                     NO AR
                   </div>
                 )}
 
-                {programa.isLive && (
+                {program.isLive && (
                   <div className="text-red-600 font-medium ml-auto bg-white px-4 py-[0.125rem] uppercase cursor-default">
                     ao vivo
                   </div>
@@ -85,13 +86,13 @@ export default function EPGProgram({ index, emissora, createReference }) {
               </header>
 
               <div className="text-2xl font-bold text-zinc-300">
-                {programa.title}
+                {program.title}
               </div>
 
 
-              {programa.summary && (
+              {program.summary && (
                 <span className="text-lg text-zinc-400 mx-2">
-                  {programa.summary.slice(0, 80)}...
+                  {program.summary.slice(0, 80)}...
                 </span>
               )}
 
@@ -100,13 +101,13 @@ export default function EPGProgram({ index, emissora, createReference }) {
 
                 <AiOutlineStar size={20} fill="#aaa" />
 
-                {programa.downloadable && (
+                {program.downloadable && (
                   <LuDownload size={20} className="text-zinc-400 " />
                 )}
 
-                {programa.advice && (
+                {program.advice && (
                   <div className=" cursor-default ml-auto px-3 py-[0.125rem] bg-green-800 text-white font-medium">
-                    {programa.advice}
+                    {program.advice}
                   </div>
                 )}
               </footer>

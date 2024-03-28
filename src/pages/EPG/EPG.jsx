@@ -104,12 +104,12 @@ export default function EPG() {
 
       <main className="flex-1 bg-zinc-800 px-4 rounded-lg w-full overflow-y-scroll h-full">
         <div className="flex flex-col items-center justify-center gap-8 w-full py-8">
-          {emissorasValues.map((emissora, index) => {
+          {emissorasValues.map((broadcaster, broadcasterIndex) => {
             return (
               <EPGProgram
-                key={index}
-                index={index}
-                emissora={emissora}
+                key={broadcasterIndex}
+                broadcasterIndex={broadcasterIndex}
+                broadcaster={broadcaster}
                 createReference={createReference}
               />
             );

@@ -6,7 +6,7 @@ import Rating from "./Rating";
 import FooterProgramEPG from "./FooterProgramEPG";
 import { generos } from "../configs/generos";
 
-export default function ProgramEPG({ createReference, programa }) {
+export default function ProgramEPG({ createReference, programa, broadcasterIndex }) {
   return (
     <main className="bg-zinc-800 w-full p-8 rounded-2xl">
       <div className="grid grid-cols-[3fr,2fr]">
@@ -40,7 +40,7 @@ export default function ProgramEPG({ createReference, programa }) {
         </div>
       </div>
 
-      <FooterProgramEPG createReference={createReference} programa={programa} />
+      <FooterProgramEPG createReference={createReference} programa={programa} broadcasterIndex={broadcasterIndex} />
     </main>
   );
 }

@@ -61,16 +61,19 @@ export default function Related() {
     if (key.code === "PageUp") {
 
       setDataToStreamingLocalStorage(broadcasterIndex + 1)
-
+      navigate("/initialApp")
     } else if (key.code === "PageDown") {
       setDataToStreamingLocalStorage(broadcasterIndex - 1)
+      navigate("/initialApp")
     }
 
     if (!keyMapping[key.code]) {
       return handleFocusElement(key);
+    } else {
+      return navigate("/initialApp")
     }
 
-    return navigate("/initialApp")
+
   }
 
   // Função utilizada para navegação pelo teclado

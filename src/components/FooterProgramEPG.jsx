@@ -7,18 +7,21 @@ import BorderedIcon from "./BorderedIcon";
 import { FaRegStar } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaCirclePlay } from "react-icons/fa6";
+import { emissoras } from "../configs/emissoras";
 
 
-export default function FooterProgramEPG({ createReference, programa, emissora }) {
+export default function FooterProgramEPG({ createReference, programa, broadcasterIndex }) {
+
+  const emissorasValues = Object.values(emissoras)
   const navigate = useNavigate()
 
   function handleNavigateInfoDTV(programa) {
-    navigate("/InitialApp", {
-      state: {
-        programa,
-        emissora
-      }
-    })
+
+    localStorage.setItem("program", JSON.stringify(programa))
+    localStorage.setItem("broadcaster", JSON.stringify(emissoras[programa.broadcaster]))
+    localStorage.setItem("broadcasterIndex", JSON.stringify(broadcasterIndex))
+
+    navigate("/InitialApp")
   }
 
   return (

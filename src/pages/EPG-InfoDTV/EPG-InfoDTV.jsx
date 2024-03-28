@@ -18,8 +18,8 @@ import FooterInfoDTV from "../../components/FooterInfoDTV";
 export default function EPGInfoDTV() {
 
   const location = useLocation();
-  const programa = location.state.program // Já ta no ponto de receber o programa dinamicamente
-
+  const program = location.state.program // Já ta no ponto de receber o programa dinamicamente
+  const broadcasterIndex = location.state.broadcasterIndex
 
   const refs = useRef([]);
   const navigate = useNavigate();
@@ -54,10 +54,11 @@ export default function EPGInfoDTV() {
       return handleFocusElement(key);
     }
 
+    // navegar para as teclas mapeadas em keyMapping
     return navigate(`/${keyMapping[key.code]}`, {
       state: {
-        programa,
-        emissora
+        broadcaster,
+        program
       }
     });
   }
@@ -116,7 +117,7 @@ export default function EPGInfoDTV() {
         <Profile createReference={createReference} />
       </Header>
 
-      <ProgramEPG programa={programa} createReference={createReference} />
+      <ProgramEPG programa={program} createReference={createReference} broadcasterIndex={broadcasterIndex} />
 
       <FooterInfoDTV createReference={createReference} />
     </Page>
