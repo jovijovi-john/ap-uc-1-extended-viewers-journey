@@ -25,7 +25,6 @@ export default function InitialApp() {
   let emissora = location.state.emissora;
   let emissoraIndex = location.state.emissoraIndex
 
-  console.log(`A emissora atual é: ${emissoraIndex}`)
 
   const emissorasValues = Object.values(emissoras)
 
@@ -67,7 +66,44 @@ export default function InitialApp() {
   // Função para gerenciar eventos do teclado e mapeá-los para a função handleFocusElement
   function handleKeyDown(key) {
 
-    console.log(key.code)
+    // ZAPEAMENTO (Dá pra refatorar, fazer uma função já que as duas verificações são muito parecidas)
+    if (key.code === "PageUp") {
+
+      let nextBroadcasterIndex = emissoraIndex + 1
+      let nextBroadcaster = emissorasValues[nextBroadcasterIndex]
+      let nextBroadcasterProgram = nextBroadcaster.programs[nextBroadcaster.initialContent]
+
+      window.location.reload()
+
+      return navigate("/initialApp",
+        {
+          state: {
+            program: nextBroadcasterProgram,
+            emissora: nextBroadcaster,
+            emissoraIndex: nextBroadcasterIndex
+          }
+        })
+
+
+    } else if (key.code === "PageDown") {
+      console.log("CANAL ANTERIOR")
+
+      let previousBroadcasterIndex = emissoraIndex - 1
+      let previousBroadcaster = emissorasValues[previousBroadcasterIndex]
+      let previousBroadcasterProgram = previousBroadcaster.programs[previousBroadcaster.initialContent]
+
+      window.location.reload()
+
+      return navigate("/initialApp",
+        {
+          state: {
+            program: previousBroadcasterProgram,
+            emissora: previousBroadcaster,
+            emissoraIndex: previousBroadcasterIndex
+          }
+        })
+    }
+
 
     if (!keyMapping[key.code]) {
       return handleFocusElement(key);
@@ -83,49 +119,6 @@ export default function InitialApp() {
 
   // Função utilizada para navegação pelo teclado
   function handleFocusElement(keyPressed, keysFunctions) {
-
-    // ZAPEAMENTO
-
-    if (keyPressed.code === "PageUp") {
-      
-      let nextBroadcasterIndex = emissoraIndex + 1
-      let nextBroadcaster = emissorasValues[nextBroadcasterIndex]
-      let nextBroadcasterProgram = nextBroadcaster.programs[nextBroadcaster.initialContent]
-
-      console.log(nextBroadcasterIndex)
-      console.log(nextBroadcaster)
-      console.log(nextBroadcasterProgram)
-
-      navigate("/initialApp", 
-      {
-        state: {
-          program: nextBroadcasterProgram,
-          emissora: nextBroadcaster,
-          emissoraIndex: nextBroadcasterIndex
-        }
-      })
-
-
-    } else if (keyPressed.code === "PageDown") {
-      console.log("CANAL ANTERIOR")
-
-      let previousBroadcasterIndex = emissoraIndex - 1
-      let previousBroadcaster = emissorasValues[previousBroadcasterIndex]
-      let previousBroadcasterProgram = previousBroadcaster.programs[previousBroadcaster.initialContent]
-
-      console.log(previousBroadcasterIndex)
-      console.log(previousBroadcaster)
-      console.log(previousBroadcasterProgram)
-
-      navigate("/initialApp", 
-      {
-        state: {
-          program: previousBroadcasterProgram,
-          emissora: previousBroadcaster,
-          emissoraIndex: previousBroadcasterIndex
-        }
-      })
-    }
 
 
     if (!keysFunctions) {

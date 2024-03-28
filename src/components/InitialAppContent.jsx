@@ -6,8 +6,6 @@ import CardRadiodifusor from "./CardRadiodifusor";
 
 export default function InitialAppContent({ createReference, programa, emissora }) {
 
-  console.log(programa.video)
-
   return (
     <main className="bg-zinc-800 w-full flex-1 p-8 rounded-2xl grid grid-cols-[1fr,3fr] gap-4">
       <CardRadiodifusor createReference={createReference} classNames={"justify-center"} emissora={emissora} />
