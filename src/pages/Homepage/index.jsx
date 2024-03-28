@@ -22,11 +22,14 @@ import keyMapping from "./keyMapping"
 
 import { emissoras } from "../../configs/emissoras";
 import { apps } from "../../configs/apps.js";
+import { setDataToStreamingLocalStorage } from "../../utils/dataStreaming.js";
 
 export default function Homepage() {
 
-  const tv_aberta = Object.values(emissoras).slice(0, 5);
+  const emissorasValues = Object.values(emissoras)
+  const tvAberta = emissorasValues.slice(0, 5);
   const appsValues = Object.values(apps)
+
   const [elementFocusable, setElementFocusable] = useState();
 
   // Array de refs
@@ -157,16 +160,11 @@ export default function Homepage() {
 
   }
 
-
   function handleClickEmissora(emissora, emissoraIndex) {
 
-    navigate("/InitialApp", {
-      state: {
-        programa: emissora.programs[emissora.initialContent],
-        emissora,
-        emissoraIndex
-      }
-    })
+    setDataToStreamingLocalStorage(emissoraIndex)
+
+    navigate("/InitialApp")
   }
 
   function handleClickApp(app) {
@@ -231,7 +229,7 @@ export default function Homepage() {
         </RoundedIconWithDescription>
 
         <div className="flex items-center gap-8">
-          {tv_aberta.map((emissora, emissoraIndex) => {
+          {tvAberta.map((emissora, emissoraIndex) => {
             return (
               <ScaleFocusHover
                 onClick={() => handleClickEmissora(emissora, emissoraIndex)}

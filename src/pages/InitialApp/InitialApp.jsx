@@ -9,6 +9,7 @@ import FooterInitialApp from "../../components/FooterInitialApp";
 
 import keyMapping from "./keyMapping";
 import { emissoras } from "../../configs/emissoras";
+import { setDataToStreamingLocalStorage } from "../../utils/dataStreaming";
 
 // Variável para rastrear a div com foco
 let focusIndex = 0; // tem que ficar aqui do lado de fora porque senão a cada atualização do componente ele atribuirá 0 de novo
@@ -21,22 +22,18 @@ export default function InitialApp() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  let programa = location.state.programa;
-  let emissora = location.state.emissora;
-  let emissoraIndex = location.state.emissoraIndex
+  let program = JSON.parse(localStorage.getItem("program"))
+  let broadcaster = JSON.parse(localStorage.getItem("broadcaster"))
+  let broadcasterIndex = JSON.parse(localStorage.getItem("broadcasterIndex"))
 
-
-  const emissorasValues = Object.values(emissoras)
-
-
-  if (!emissora) {
+  if (!broadcaster) {
     // Se a emissora não for passada (InfoDTV), obtém a emissora a partir do campo broadcaster
-    emissora = emissoras[programa.broadcaster]
+    broadcaster = emissoras[program.broadcaster]
   }
 
-  if (!programa) {
+  if (!program) {
     // Se o programa não for informado, pega o programa definido em initialContent da emissora
-    programa = emissora.programs[emissora.initialContent]
+    program = broadcaster.programs[broadcaster.initialContent]
   }
 
   // Acionado quando um elemento do array de referências é focado
@@ -63,45 +60,20 @@ export default function InitialApp() {
     }
   }
 
+
   // Função para gerenciar eventos do teclado e mapeá-los para a função handleFocusElement
   function handleKeyDown(key) {
 
-    // ZAPEAMENTO (Dá pra refatorar, fazer uma função já que as duas verificações são muito parecidas)
+    // ZAPEAMENTO 
     if (key.code === "PageUp") {
 
-      let nextBroadcasterIndex = emissoraIndex + 1
-      let nextBroadcaster = emissorasValues[nextBroadcasterIndex]
-      let nextBroadcasterProgram = nextBroadcaster.programs[nextBroadcaster.initialContent]
-
-      window.location.reload()
-
-      return navigate("/initialApp",
-        {
-          state: {
-            program: nextBroadcasterProgram,
-            emissora: nextBroadcaster,
-            emissoraIndex: nextBroadcasterIndex
-          }
-        })
-
+      setDataToStreamingLocalStorage(broadcasterIndex + 1)
+      return window.location.reload()
 
     } else if (key.code === "PageDown") {
-      console.log("CANAL ANTERIOR")
+      setDataToStreamingLocalStorage(broadcasterIndex - 1)
 
-      let previousBroadcasterIndex = emissoraIndex - 1
-      let previousBroadcaster = emissorasValues[previousBroadcasterIndex]
-      let previousBroadcasterProgram = previousBroadcaster.programs[previousBroadcaster.initialContent]
-
-      window.location.reload()
-
-      return navigate("/initialApp",
-        {
-          state: {
-            program: previousBroadcasterProgram,
-            emissora: previousBroadcaster,
-            emissoraIndex: previousBroadcasterIndex
-          }
-        })
+      return window.location.reload()
     }
 
 
@@ -111,8 +83,8 @@ export default function InitialApp() {
 
     return navigate(`/${keyMapping[key.code]}`, {
       state: {
-        emissora: emissora,
-        programa: programa
+        broadcaster,
+        program
       }
     });
   }
@@ -194,8 +166,8 @@ export default function InitialApp() {
 
       <InitialAppContent
         createReference={createReference}
-        programa={programa}
-        emissora={emissora} />
+        programa={program}
+        emissora={broadcaster} />
 
       <FooterInitialApp createReference={createReference} />
 

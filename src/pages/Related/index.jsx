@@ -11,9 +11,22 @@ import RecomendationsBar from "../../components/RecomendationsBar.jsx"
 // Configs
 import { emissoras } from '../../configs/emissoras.js'
 import keyMapping from './keyMapping.js'
+import { setDataToStreamingLocalStorage } from '../../utils/dataStreaming.js'
 
 
 export default function Related() {
+
+  const location = useLocation();
+
+  let program = JSON.parse(localStorage.getItem("program"))
+  let broadcaster = JSON.parse(localStorage.getItem("broadcaster"))
+  let broadcasterIndex = JSON.parse(localStorage.getItem("broadcasterIndex"))
+
+
+  const recomendations = broadcaster.related.map((indexProgram) => {
+    return broadcaster.programs[indexProgram]
+  })
+
 
   // Array de refs
   const refs = useRef([]);
@@ -44,15 +57,20 @@ export default function Related() {
 
   // Função para gerenciar eventos do teclado e mapeá-los para a função handleFocusElement
   function handleKeyDown(key) {
+
+    if (key.code === "PageUp") {
+
+      setDataToStreamingLocalStorage(broadcasterIndex + 1)
+
+    } else if (key.code === "PageDown") {
+      setDataToStreamingLocalStorage(broadcasterIndex - 1)
+    }
+
     if (!keyMapping[key.code]) {
       return handleFocusElement(key);
     }
-    return navigate(`/${keyMapping[key.code]}`, {
-      state: {
-        emissora: location.state.emissora,
-        programa: location.state.programa
-      }
-    });
+
+    return navigate("/initialApp")
   }
 
   // Função utilizada para navegação pelo teclado
@@ -118,16 +136,8 @@ export default function Related() {
     window.onkeydown = handleKeyDown;
   }, []);
 
-  const location = useLocation();
 
-  const emissora = location.state.emissora
-  const programa = location.state.programa
 
-  const recomendations = emissora.related.map((indexProgram) => {
-    return emissora.programs[indexProgram]
-  })
-
-  
 
   return (
     <Page >
@@ -136,7 +146,7 @@ export default function Related() {
         <Profile createReference={createReference} />
       </Header>
 
-      <ContentRecomendations emissora={emissora} createReference={createReference} programa={programa} />
+      <ContentRecomendations emissora={broadcaster} createReference={createReference} programa={program} />
 
       <RecomendationsBar recomendations={recomendations} createReference={createReference} />
 
