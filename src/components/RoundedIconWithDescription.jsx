@@ -1,4 +1,5 @@
 import React from 'react'
+import ScaleFocusHover from './ScaleFocusHover'
 
 export default function RoundedIconWithDescription({ children, onClick }) {
   return (

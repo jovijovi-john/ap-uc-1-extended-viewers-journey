@@ -8,6 +8,7 @@ import Profile from "../../components/Profile";
 import FooterHomepage from "../../components/FooterHomepage";
 import Relateds from "../../components/Relateds.jsx";
 
+import RoundedIconWithDescription from "../../components/RoundedIconWithDescription";
 import RoundedIcon from "../../components/RoundedIcon";
 import ScaleFocusHover from "../../components/ScaleFocusHover";
 
@@ -16,19 +17,19 @@ import { TbGridDots } from "react-icons/tb";
 import { BiLike } from "react-icons/bi";
 import { BsChevronRight } from "react-icons/bs";
 
-import RoundedIconWithDescription from "../../components/RoundedIconWithDescription";
-
-import keyMapping from "./keyMapping"
+import NeflixIconRounded from "../../assets/apps/netflix_rounded.svg"
 
 import { emissoras } from "../../configs/emissoras";
-import { apps } from "../../configs/apps.js";
+import { apps, netflixContent } from "../../configs/apps.js";
 import { setDataToStreamingLocalStorage } from "../../utils/dataStreaming.js";
+
+import keyMapping from "./keyMapping"
 
 export default function Homepage() {
 
   const emissorasValues = Object.values(emissoras)
   const tvAberta = emissorasValues.slice(0, 5);
-  const appsValues = Object.values(apps)
+  const appsValues = Object.values(apps).slice(0, 4)
 
   const [elementFocusable, setElementFocusable] = useState();
 
@@ -76,8 +77,8 @@ export default function Homepage() {
   function handleFocusElement(keyPressed, keysFunctions) {
     if (!keysFunctions) {
       keysFunctions = {
-        ArrowUp: -7,
-        ArrowDown: 7,
+        ArrowUp: -6,
+        ArrowDown: 6,
         ArrowLeft: -1,
         ArrowRight: 1,
       };
@@ -200,12 +201,19 @@ export default function Homepage() {
         </RoundedIconWithDescription>
 
         <div className="flex items-center gap-8">
+          <ScaleFocusHover
+            createReference={createReference}
+            classNames={`flex flex-col justify-center items-center gap-2 max-h-[150px] w-full h-full rounded-lg overflow-hidden bg-red-700 w-[242px]`}>
+            <MdOutlineMonitor size={76} className="text-white" />
+            <p className="text-xl text-white font-semibold">Tv Aberta</p>
+          </ScaleFocusHover>
+
           {appsValues.map((app, appIndex) => {
             return <ScaleFocusHover
               onClick={() => handleClickApp(app)}
               createReference={createReferenceForRelated}
               key={appIndex}
-              classNames="flex-1 max-h-[150px] w-full h-full rounded-lg overflow-hidden">
+              classNames=" max-h-[150px] w-full h-full rounded-lg overflow-hidden w-[242px]">
 
               <img src={app.icon} alt="" className="h-full w-full object-cover" />
             </ScaleFocusHover>
@@ -220,8 +228,8 @@ export default function Homepage() {
       {/* --------------------------------------- EMISSORAS ---------------------------------------------------- */}
       <div className="flex w-full gap-16">
 
-        <RoundedIconWithDescription onClick={() => navigate("/tvAberta")}>
-          <RoundedIcon bgColor={"bg-red-700"} createReference={createReference}>
+        <RoundedIconWithDescription>
+          <RoundedIcon bgColor={"bg-red-700"}>
             <MdOutlineMonitor size={60} className="text-white" />
           </RoundedIcon>
 
@@ -235,7 +243,7 @@ export default function Homepage() {
                 onClick={() => handleClickEmissora(emissora, emissoraIndex)}
                 createReference={createReferenceForRelated}
                 key={emissoraIndex}
-                classNames={`flex-1 max-h-[150px] w-full h-full rounded-lg overflow-hidden emissora-${emissora.name}`}>
+                classNames={`max-h-[150px] h-full rounded-lg overflow-hidden w-[242px]`}>
 
                 <img src={emissora.icon} alt="" className="h-full w-full object-cover" />
               </ScaleFocusHover>
@@ -243,13 +251,46 @@ export default function Homepage() {
           })}
         </div>
 
-        <ScaleFocusHover createReference={createReference} classNames={"flex flex-col items-center justify-center text-white"}>
+        <ScaleFocusHover
+          createReference={createReference}
+          classNames={"flex flex-col items-center justify-center text-white"}
+          onClick={() => navigate("/tvAberta")}>
           <BsChevronRight size={70} />
         </ScaleFocusHover>
       </div>
 
       {/* --------------------------------------- RELACIONADOS ---------------------------------------------------- */}
-      <Relateds relacionados={relacionados} createReference={createReferenceForRelated} />
+      <div className="flex w-full gap-16">
+
+        <RoundedIconWithDescription >
+          <RoundedIcon createReference={createReference}>
+            <img src={NeflixIconRounded} alt="" />
+          </RoundedIcon>
+          <p>Relacionados</p>
+        </RoundedIconWithDescription>
+
+        <div className="flex items-center gap-8">
+          {netflixContent.map((emissora, emissoraIndex) => {
+            return (
+              <ScaleFocusHover
+                onClick={() => handleClickEmissora(emissora, emissoraIndex)}
+                createReference={createReferenceForRelated}
+                key={emissoraIndex}
+                classNames={`max-h-[150px] h-full rounded-lg overflow-hidden w-[242px]`}>
+
+                <img src={emissora.icon} alt="" className="h-full w-full object-cover" />
+              </ScaleFocusHover>
+            )
+          })}
+        </div>
+
+        <ScaleFocusHover
+          createReference={createReference}
+          classNames={"flex flex-col items-center justify-center text-white"}
+          onClick={() => navigate("/tvAberta")}>
+          <BsChevronRight size={70} />
+        </ScaleFocusHover>
+      </div>
 
     </main>
 
