@@ -47,6 +47,7 @@ export default function EPGProgram({ broadcasterIndex, broadcaster, createRefere
       <ScaleFocusHover
         classNames="flex flex-col items-center justify-center  mx-5 rounded-lg"
         createReference={createReference}
+        onClick={() => navigate("/EPG-Timeline")}
       >
         <BsChevronLeft size={50} className="text-white cursor-pointer " />
       </ScaleFocusHover>
@@ -117,7 +118,10 @@ export default function EPGProgram({ broadcasterIndex, broadcaster, createRefere
         })}
       </div>
 
-      <ScaleFocusHover createReference={createReference} classNames={"flex flex-col items-center justify-center text-white"}>
+      <ScaleFocusHover
+        createReference={createReference}
+        classNames={"flex flex-col items-center justify-center text-white"}
+        onClick={() => navigate("/EPG-Timeline")}>
         <BsChevronRight size={50} />
       </ScaleFocusHover>
     </div>
