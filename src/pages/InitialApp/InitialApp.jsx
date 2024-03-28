@@ -23,6 +23,12 @@ export default function InitialApp() {
 
   let programa = location.state.programa;
   let emissora = location.state.emissora;
+  let emissoraIndex = location.state.emissoraIndex
+
+  console.log(`A emissora atual é: ${emissoraIndex}`)
+
+  const emissorasValues = Object.values(emissoras)
+
 
   if (!emissora) {
     // Se a emissora não for passada (InfoDTV), obtém a emissora a partir do campo broadcaster
@@ -60,6 +66,9 @@ export default function InitialApp() {
 
   // Função para gerenciar eventos do teclado e mapeá-los para a função handleFocusElement
   function handleKeyDown(key) {
+
+    console.log(key.code)
+
     if (!keyMapping[key.code]) {
       return handleFocusElement(key);
     }
@@ -74,6 +83,51 @@ export default function InitialApp() {
 
   // Função utilizada para navegação pelo teclado
   function handleFocusElement(keyPressed, keysFunctions) {
+
+    // ZAPEAMENTO
+
+    if (keyPressed.code === "PageUp") {
+      
+      let nextBroadcasterIndex = emissoraIndex + 1
+      let nextBroadcaster = emissorasValues[nextBroadcasterIndex]
+      let nextBroadcasterProgram = nextBroadcaster.programs[nextBroadcaster.initialContent]
+
+      console.log(nextBroadcasterIndex)
+      console.log(nextBroadcaster)
+      console.log(nextBroadcasterProgram)
+
+      navigate("/initialApp", 
+      {
+        state: {
+          program: nextBroadcasterProgram,
+          emissora: nextBroadcaster,
+          emissoraIndex: nextBroadcasterIndex
+        }
+      })
+
+
+    } else if (keyPressed.code === "PageDown") {
+      console.log("CANAL ANTERIOR")
+
+      let previousBroadcasterIndex = emissoraIndex - 1
+      let previousBroadcaster = emissorasValues[previousBroadcasterIndex]
+      let previousBroadcasterProgram = previousBroadcaster.programs[previousBroadcaster.initialContent]
+
+      console.log(previousBroadcasterIndex)
+      console.log(previousBroadcaster)
+      console.log(previousBroadcasterProgram)
+
+      navigate("/initialApp", 
+      {
+        state: {
+          program: previousBroadcasterProgram,
+          emissora: previousBroadcaster,
+          emissoraIndex: previousBroadcasterIndex
+        }
+      })
+    }
+
+
     if (!keysFunctions) {
       keysFunctions = {
         ArrowUp: -6,

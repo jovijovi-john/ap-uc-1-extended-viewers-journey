@@ -4641,3 +4641,19 @@ export const emissoras = {
 
   },
 };
+
+
+export const scanInitialBroadcasters = {
+  tvBrasil: {},
+  band: {},
+  record: {},
+  tvCamara: {},
+  globo: {},
+  sbt: {},
+  tvCultura: {},
+  redeTv: {},
+  tvSenado: {},
+  redeGeneses: {},
+  tvJustica: {},
+  tvCancaoNova: {},
+}

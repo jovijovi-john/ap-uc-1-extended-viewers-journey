@@ -10,7 +10,7 @@ import Profile from "../../components/Profile";
 import BackIconFooter from "../../components/BackIconFooter";
 
 import keyMapping from "./keyMapping";
-import ProgramEPG from "../../components/ProgramEPG.JSX";
+import ProgramEPG from "../../components/ProgramEPG.jsx";
 import IconLeftTextRight from "../../components/IconLeftTextRight";
 import BorderedIcon from "../../components/BorderedIcon";
 import FooterInfoDTV from "../../components/FooterInfoDTV";

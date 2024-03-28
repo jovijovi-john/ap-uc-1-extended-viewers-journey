@@ -158,12 +158,13 @@ export default function Homepage() {
   }
 
 
-  function handleClickEmissora(emissora,) {
+  function handleClickEmissora(emissora, emissoraIndex) {
 
     navigate("/InitialApp", {
       state: {
         programa: emissora.programs[emissora.initialContent],
-        emissora
+        emissora,
+        emissoraIndex
       }
     })
   }
@@ -233,7 +234,7 @@ export default function Homepage() {
           {tv_aberta.map((emissora, emissoraIndex) => {
             return (
               <ScaleFocusHover
-                onClick={() => handleClickEmissora(emissora)}
+                onClick={() => handleClickEmissora(emissora, emissoraIndex)}
                 createReference={createReferenceForRelated}
                 key={emissoraIndex}
                 classNames={`flex-1 max-h-[150px] w-full h-full rounded-lg overflow-hidden emissora-${emissora.name}`}>

@@ -29,7 +29,6 @@ export default function Related() {
     // Tem que converter pra número, porque o id vem como string
     // Assim previnirá erros de "8" + 1 == 81
     focusIndex = Number(el.id);
-    console.log(el);
   }
 
   // Função utilizada para criar uma referência do elemento
@@ -121,7 +120,6 @@ export default function Related() {
 
   const location = useLocation();
 
-  console.log(location.state)
   const emissora = location.state.emissora
   const programa = location.state.programa
 
@@ -129,6 +127,7 @@ export default function Related() {
     return emissora.programs[indexProgram]
   })
 
+  
 
   return (
     <Page >
