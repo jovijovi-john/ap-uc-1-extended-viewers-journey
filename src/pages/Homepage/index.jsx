@@ -190,7 +190,7 @@ export default function Homepage() {
       {/* --------------------------------------- APLICATIVOS ---------------------------------------------------- */}
       <div className="flex w-full gap-16">
 
-        <RoundedIconWithDescription onClick={() => navigate("/apps")}>
+        <RoundedIconWithDescription>
           <RoundedIcon bgColor={"bg-violet-600"} createReference={createReferenceForRelated}>
             <TbGridDots size={60} className="text-white" />
           </RoundedIcon>
@@ -203,7 +203,9 @@ export default function Homepage() {
         <div className="flex items-center gap-8">
           <ScaleFocusHover
             createReference={createReference}
-            classNames={`flex flex-col justify-center items-center gap-2 max-h-[150px]  h-full rounded-lg overflow-hidden bg-red-700 w-[242px]`}>
+            classNames={`flex flex-col justify-center items-center gap-2 max-h-[150px]  h-full rounded-lg overflow-hidden bg-red-700 w-[242px]`}
+            onClick={() => navigate("/tvAberta")}
+          >
             <MdOutlineMonitor size={76} className="text-white" />
             <p className="text-xl text-white font-semibold">Tv Aberta</p>
           </ScaleFocusHover>
@@ -220,7 +222,11 @@ export default function Homepage() {
           })}
         </div>
 
-        <ScaleFocusHover createReference={createReference} classNames={"flex flex-col items-center justify-center text-white"}>
+        <ScaleFocusHover
+          createReference={createReference}
+          classNames={"flex flex-col items-center justify-center text-white"}
+          onClick={() => navigate("/apps")}
+        >
           <BsChevronRight size={70} />
         </ScaleFocusHover>
       </div>
