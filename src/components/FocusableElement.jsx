@@ -6,7 +6,8 @@ export default function FocusableElement(
     classNames,
     onClick = () => { },
     style = {},
-    onFocus = () => { }
+    onFocus = () => { },
+    type = "btn"
   }) {
   return (
     <button
@@ -16,6 +17,7 @@ export default function FocusableElement(
       className={`${classNames}`}
       onClick={onClick}
       style={style}
+      type={type}
     >
       {children}
     </button>

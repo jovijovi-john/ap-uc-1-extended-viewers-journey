@@ -8,7 +8,8 @@ export default function ScaleFocusHover(
     classNames,
     onClick = () => { },
     style = {},
-    onFocus = () => { }
+    onFocus = () => { },
+    type = "btn"
   }
 ) {
   return (
@@ -17,7 +18,9 @@ export default function ScaleFocusHover(
       style={style}
       onClick={onClick}
       createReference={createReference}
-      classNames={`cursor-pointer hover:scale-105 focus:scale-105 transition-all ${classNames}`}>
+      classNames={`cursor-pointer hover:scale-105 focus:scale-105 transition-all ${classNames}`}
+      type={type}
+    >
       {children}
     </FocusableElement>
   )

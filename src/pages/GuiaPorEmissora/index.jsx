@@ -147,7 +147,7 @@ export default function GuiaPorEmissora() {
 
       <main className='flex flex-col justify-center gap-4 w-full bg-zinc-800 flex-1 p-8 rounded-lg overflow-hidden'>
 
-        <div className=' w-full h-full overflow-scroll'>
+        <div className='flex flex-col gap-4 w-full h-full overflow-scrol'>
           {canais.map((canal, indexCanal) => {
             return (
               <div className='flex gap-4 items-center' key={indexCanal} >

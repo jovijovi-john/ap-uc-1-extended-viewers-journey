@@ -3,13 +3,17 @@ import React, { useEffect, useRef, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 
 import Page from "../../components/Page";
+import { clearLocalStorage } from "../../utils/localStorage";
 
 export default function Fabricante() {
   const navigate = useNavigate();
   useEffect(() => {
+
+    clearLocalStorage()
+
     setTimeout(() => {
       navigate("/SelectLanguage");
-    }, 6000);
+    }, 4000);
   }, []);
 
   return (

@@ -21,7 +21,6 @@ export default function CheckboxInput({
         ref={(el) => createReference(el)}
         type="checkbox"
         name='teste'
-        value={'teste'}
         checked={isChecked}
         onKeyDown={handleKeyPress}
         onChange={() => setIsChecked(!isChecked)}

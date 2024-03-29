@@ -203,7 +203,7 @@ export default function Homepage() {
         <div className="flex items-center gap-8">
           <ScaleFocusHover
             createReference={createReference}
-            classNames={`flex flex-col justify-center items-center gap-2 max-h-[150px] w-full h-full rounded-lg overflow-hidden bg-red-700 w-[242px]`}>
+            classNames={`flex flex-col justify-center items-center gap-2 max-h-[150px]  h-full rounded-lg overflow-hidden bg-red-700 w-[242px]`}>
             <MdOutlineMonitor size={76} className="text-white" />
             <p className="text-xl text-white font-semibold">Tv Aberta</p>
           </ScaleFocusHover>
@@ -213,7 +213,7 @@ export default function Homepage() {
               onClick={() => handleClickApp(app)}
               createReference={createReferenceForRelated}
               key={appIndex}
-              classNames=" max-h-[150px] w-full h-full rounded-lg overflow-hidden w-[242px]">
+              classNames=" max-h-[150px] w-[242px] h-full rounded-lg overflow-hidden w-[242px]">
 
               <img src={app.icon} alt="" className="h-full w-full object-cover" />
             </ScaleFocusHover>
