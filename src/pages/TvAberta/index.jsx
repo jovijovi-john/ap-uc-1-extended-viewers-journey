@@ -115,7 +115,7 @@ export default function TvAberta() {
             createReference={createReference}
             onClick={() => handleClickEmissora(radiodifusor)}
             key={radiodifusorIndex}
-            classNames={"w-[300px] h-[150px]"}
+            classNames={"w-[300px] h-[150px] bg-white"}
             icon={radiodifusor.icon}
           />
         })}
