@@ -17,7 +17,7 @@ export default function FooterInitialApp({ createReference }) {
   return (
     <Footer classNames={"p-4 justify-between text-white"}>
       <div className="flex space-between items-center">
-        <IconLeftTextRight createReference={createReference} onClick={() => navigate("/homepage")}>
+        <IconLeftTextRight createReference={createReference} onClick={() => navigate("/tvAberta")}>
           <BorderedIcon color={"white"}>
             <BsChevronLeft size={76} />
           </BorderedIcon>

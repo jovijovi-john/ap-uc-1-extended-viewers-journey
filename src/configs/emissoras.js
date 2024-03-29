@@ -51,6 +51,130 @@ import GloboEsporteIcon from "../assets/programs/globo_esporte.png"
 
 export const emissoras = {
 
+  globo: {
+    name: "globo",
+    icon: GloboIcon,
+    slogan: "slogan do canal",
+    initialContent: 3,
+    programs: [
+      {
+        title: "Titulo do programa",
+        summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
+        blocked: true,
+        rating: 12,
+        banner: "https://github.com/csalles.png",
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "telejornalismo",
+        availableUntil: "28/07/2024",
+        video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
+        broadcaster: "band",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GloboEsporteIcon
+      },
+
+      {
+        title: "Titulo do programa",
+        summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
+        blocked: true,
+        rating: 12,
+        banner: "https://github.com/csalles.png",
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "telejornalismo",
+        availableUntil: "28/07/2024",
+        video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
+        broadcaster: "band",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GloboEsporteIcon
+      },
+
+      {
+        title: "Titulo do programa",
+        summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
+        blocked: true,
+        rating: 12,
+        banner: "https://github.com/csalles.png",
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "telejornalismo",
+        availableUntil: "28/07/2024",
+        video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
+        broadcaster: "band",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GloboEsporteIcon
+      },
+
+      {
+        title: "Titulo do programa",
+        summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
+        blocked: true,
+        rating: 12,
+        banner: "https://github.com/csalles.png",
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "telejornalismo",
+        availableUntil: "28/07/2024",
+        video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
+        broadcaster: "band",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GloboEsporteIcon
+      },
+      {
+        title: "Titulo do programa",
+        summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
+        blocked: true,
+        rating: 12,
+        banner: "https://github.com/csalles.png",
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "telejornalismo",
+        availableUntil: "28/07/2024",
+        video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
+        broadcaster: "band",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GloboEsporteIcon
+      },
+
+      {
+        title: "Titulo do programa",
+        summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
+        blocked: true,
+        rating: 12,
+        banner: "https://github.com/csalles.png",
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "telejornalismo",
+        availableUntil: "28/07/2024",
+        video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
+        broadcaster: "band",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GloboEsporteIcon
+      },
+
+    ],
+    related: [0, 1, 2, 3, 4]
+
+  },
+
   band: {
     name: "band",
     icon: BandIcon,
@@ -923,129 +1047,7 @@ export const emissoras = {
 
   },
 
-  globo: {
-    name: "globo",
-    icon: GloboIcon,
-    slogan: "slogan do canal",
-    initialContent: 3,
-    programs: [
-      {
-        title: "Titulo do programa",
-        summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
-        rating: 12,
-        banner: "https://github.com/csalles.png",
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "telejornalismo",
-        availableUntil: "28/07/2024",
-        video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
-        broadcaster: "band",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
 
-      {
-        title: "Titulo do programa",
-        summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
-        rating: 12,
-        banner: "https://github.com/csalles.png",
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "telejornalismo",
-        availableUntil: "28/07/2024",
-        video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
-        broadcaster: "band",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-      {
-        title: "Titulo do programa",
-        summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
-        rating: 12,
-        banner: "https://github.com/csalles.png",
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "telejornalismo",
-        availableUntil: "28/07/2024",
-        video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
-        broadcaster: "band",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-      {
-        title: "Titulo do programa",
-        summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
-        rating: 12,
-        banner: "https://github.com/csalles.png",
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "telejornalismo",
-        availableUntil: "28/07/2024",
-        video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
-        broadcaster: "band",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-      {
-        title: "Titulo do programa",
-        summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
-        rating: 12,
-        banner: "https://github.com/csalles.png",
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "telejornalismo",
-        availableUntil: "28/07/2024",
-        video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
-        broadcaster: "band",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-      {
-        title: "Titulo do programa",
-        summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
-        rating: 12,
-        banner: "https://github.com/csalles.png",
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "telejornalismo",
-        availableUntil: "28/07/2024",
-        video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
-        broadcaster: "band",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-    ],
-    related: [0, 1, 2, 3, 4]
-
-  },
 
   puc: {
     name: "puc",
@@ -6122,3 +6124,6 @@ export const initialBroadcasters = {
     related: [0, 1, 2, 3, 4]
   },
 }
+
+
+// TvBrasil, TvGlobo, Band, SBT, TvCamara, Record

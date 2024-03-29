@@ -7,7 +7,10 @@ export default function CardRadiodifusor({ createReference, classNames, emissora
       tabIndex={0}
       ref={(el) => createReference(el)}
     >
-      <img src={emissora.icon} alt="" className="w-2/3 rounded-full min-w-[300px] min-h-[300px] object-cover" />
+      <div className="w-[300px] h-[300px] flex">
+        <img src={emissora.icon} alt="" className="w-full h-full object-cover rounded-full bg-white" />
+
+      </div>
       <p className="text-5xl font-bold text-gray-200">
         {emissora.name}
       </p>

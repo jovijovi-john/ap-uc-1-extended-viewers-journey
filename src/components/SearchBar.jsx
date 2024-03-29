@@ -8,10 +8,10 @@ import ScaleFocusHover from "./ScaleFocusHover";
 
 export default function SearchBar({ createReference }) {
   return (
-    <div className="flex flex-1 gap-4 max-w-[800px] mx-16 mr-auto h-2/3 bg-zinc-700 rounded-md px-8 items-center ">
+    <div className="flex flex-1 gap-4 max-w-[600px] h-[70px] bg-zinc-700 rounded-md px-8 items-center ">
       <ScaleFocusHover createReference={createReference} classNames={"p-2"}>
         <FaSearch
-          size={40}
+          size={35}
           className="text-zinc-400 rounded-full cursor-pointer"
         />
       </ScaleFocusHover>
@@ -24,7 +24,7 @@ export default function SearchBar({ createReference }) {
 
       <ScaleFocusHover createReference={createReference} classNames={"p-2"}>
         <MdKeyboardVoice
-          size={40}
+          size={35}
           className="text-zinc-400 rounded-full cursor-pointer"
         />
       </ScaleFocusHover>

@@ -34,7 +34,7 @@ export default function EPGProgram({ broadcasterIndex, broadcaster, createRefere
         >
           {/* <MdOutlineMonitor size={120} className="text-zinc-400" /> */}
 
-          <div className="overflow-hidden w-[225px] h-[125px] rounded-lg">
+          <div className="overflow-hidden w-[225px] h-[125px] rounded-lg bg-white">
             <img src={broadcaster.icon} alt="" className="object-cover w-full h-full" />
           </div>
 

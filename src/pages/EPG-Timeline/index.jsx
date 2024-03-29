@@ -15,7 +15,6 @@ import { emissoras } from "../../configs/emissoras";
 
 // Arquivo contendo o mapeamento das teclas referente às rotas da aplicação
 import keyMapping from "./keyMapping";
-import EPGProgramTimeline from "../../components/EPGProgramTimeline";
 import ProgramDynamicSize from "../../components/ProgramDynamicSize";
 
 export default function EPGTimeline() {
@@ -180,13 +179,14 @@ export default function EPGTimeline() {
 
         </div> */}
 
-        <div className="grid grid-cols-[300px,1fr] grid-rows-[80px,1fr]  h-full">
+        <div className="grid grid-cols-[300px,1fr] grid-rows-[80px,1fr] overflow-hidden">
 
           {/* -------------------------------- HEADER --------------------------------------------------- */}
-          <div>
+          <div className="sticky left-0 bg-zinc-800 z-50">
+
           </div>
 
-          <div className="flex w-full pl-16">
+          <div className="flex w-full pl-16 ">
             {schedules.map((schedule, index) => {
               return (
                 <div className="w-[200px] relative" key={index}>
@@ -204,12 +204,14 @@ export default function EPGTimeline() {
 
           {/* -------------------------------- EMISSORAS --------------------------------------------------- */}
 
-          <div className="flex flex-col h-full gap-2 ">
+          <div className="flex flex-col h-full gap-4  sticky left-0 bg-zinc-800 pr-8">
 
             {emissorasValues.map((emissora, index) => {
               return (
-                <div className="w-full h-[200px] overflow-hidden rounded-3xl">
-                  <img src={emissora.icon} alt="" className="h-full w-full object-cover" />
+                <div className="w-full h-[200px] flex items-center justify-center">
+                  <div className="h-[160px] w-full bg-white overflow-hidden rounded-3xl flex items-center justify-center">
+                    <img src={emissora.icon} alt="" className="h-full w-full object-cover" />
+                  </div>
                 </div>)
             })}
 
@@ -218,7 +220,7 @@ export default function EPGTimeline() {
           </div>
 
           {/* -------------------------------- PROGRAMAS --------------------------------------------------- */}
-          <div className="pl-16 overflow-x-hidden">
+          <div className="pl-16 w-full overflow-scroll">
             <div className="flex flex-col gap-2 ">
               {emissorasValues.map((emissora, indexEmissora) => {
                 return <div className="h-[200px]  w-full ">

@@ -7,6 +7,7 @@ import { LuDownload } from "react-icons/lu";
 
 // Components
 import ScaleFocusHover from './ScaleFocusHover';
+import FocusableElement from './FocusableElement';
 import Rating from './Rating';
 import CategoryStripe from './CategoryStripe';
 
@@ -43,7 +44,7 @@ export default function ProgramDynamicSize({ onClick, programa, createReference 
   }
 
   return (
-    <ScaleFocusHover
+    <FocusableElement
       onClick={() => handleClick(programa)}
       createReference={createReference}
       classNames={"flex p-3 bg-zinc-700 rounded-lg flex-col overflow-hidden items-center justify-between border-2 border-zinc-800 shrink-0"}
@@ -84,6 +85,6 @@ export default function ProgramDynamicSize({ onClick, programa, createReference 
         }
       </footer>
 
-    </ScaleFocusHover >
+    </FocusableElement >
   )
 }
