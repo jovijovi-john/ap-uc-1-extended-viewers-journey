@@ -6,12 +6,12 @@ import ButtonDiscoveryChannels from '../../components/ButtonDiscoveryChannels'
 import AudioDescButton from '../../components/AudioDescButton'
 import Footer from '../../components/Footer'
 
-import { emissoras } from "../../configs/emissoras"
+import { initialBroadcasters } from "../../configs/emissoras"
 import keyMapping from "./keyMapping"
 
 export default function DiscoverChannels() {
 
-  let emissorasValues = Object.values(emissoras).slice(0, 12)
+  let emissorasValues = Object.values(initialBroadcasters).slice(0, 12)
 
   const [status, setStatus] = useState("start")
   const [scanProgress, setScanProgress] = useState(0);
@@ -133,15 +133,15 @@ export default function DiscoverChannels() {
           <p className='text-center mx-auto text-2xl text-white'>Progresso: {scanProgress}%</p>
           <p className='text-center mx-auto text-2xl text-white'>Apps de TV Aberta Encontrados: {channelsFound.length}</p>
 
-          <div className='flex flex-1 items-center w-full flex-wrap  justify-center gap-x-8 gap-y-0 p-4'>
+          <div className='flex flex-1 items-center w-full flex-wrap  justify-center gap-x-8 gap-y-4 p-4'>
             {channelsFound.map((channel, indexChannel) => {
 
               return (
                 <div
                   key={indexChannel}
-                  classNames=" h-[130px] w-[230px] rounded-lg overflow-hidden">
+                  className=" h-[140px] w-[250px] rounded-2xl bg-white overflow-hidden ">
 
-                  <img src={channel.icon} alt="" className="h-full  w-full object-cover" />
+                  <img src={channel.icon} alt="" className="h-full w-full object-cover" />
                 </div>
               )
             })}
@@ -151,11 +151,11 @@ export default function DiscoverChannels() {
 
 
           <footer className='flex flex-col items-center mt-auto'>
-            {status === "finished" &&
+            {(status === "scanning" || status === "finished") &&
               <div className='flex flex-col '>
                 <p className='text-center mx-auto text-2xl text-white mb-4'>Região identificada:</p>
                 <p className='text-center mx-auto text-2xl text-white'> <span className='font-bold'>País:</span> Brasil </p>
-                <p className='text-center mx-auto text-2xl text-white'> <span className='font-bold'>Cidade:</span> São Luís </p>
+                <p className='text-center mx-auto text-2xl text-white'> <span className='font-bold'>Cidade:</span> Brasília </p>
               </div >
 
 
