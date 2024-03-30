@@ -14,7 +14,7 @@ import { emissoras } from "../../configs/emissoras.js"
 
 export default function TvAberta() {
 
-  const emissorasValues = Object.values(emissoras).slice(0, 20)
+  const emissorasValues = Object.values(emissoras)
 
 
   // Array de refs
@@ -109,16 +109,18 @@ export default function TvAberta() {
         <Profile createReference={createReference} />
       </Header>
 
-      <div className='flex flex-wrap gap-8 justify-center items-center  flex-1'>
-        {emissorasValues.map((radiodifusor, radiodifusorIndex) => {
-          return <RadiodifusorCard
-            createReference={createReference}
-            onClick={() => handleClickEmissora(radiodifusor)}
-            key={radiodifusorIndex}
-            classNames={"w-[300px] h-[150px] bg-white"}
-            icon={radiodifusor.icon}
-          />
-        })}
+      <div className='h-full w-full overflow-hidden'>
+        <div className='h-full w-full flex flex-wrap gap-8 justify-center items-center overflow-scroll'>
+          {emissorasValues.map((radiodifusor, radiodifusorIndex) => {
+            return <RadiodifusorCard
+              createReference={createReference}
+              onClick={() => handleClickEmissora(radiodifusor)}
+              key={radiodifusorIndex}
+              classNames={"w-[300px] h-[150px] bg-white"}
+              icon={radiodifusor.icon}
+            />
+          })}
+        </div>
       </div>
 
       <FooterTvAberta createReference={createReference} />
