@@ -115,7 +115,7 @@ export default function Apps() {
         <Profile createReference={createReference} />
       </Header>
 
-      <div className='flex flex-wrap gap-8 justify-center  flex-1'>
+      <div className='flex flex-wrap gap-8 justify-center '>
         {appsValues.map((app, appIndex) => {
           return (
             <RadiodifusorCard
