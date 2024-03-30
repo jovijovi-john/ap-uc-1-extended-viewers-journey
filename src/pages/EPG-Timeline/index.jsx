@@ -208,7 +208,7 @@ export default function EPGTimeline() {
 
             {emissorasValues.map((emissora, index) => {
               return (
-                <div className="w-full h-[200px] flex items-center justify-center">
+                <div className="w-full h-[200px] flex items-center justify-center" key={index}>
                   <div className="h-[160px] w-full bg-white overflow-hidden rounded-3xl flex items-center justify-center">
                     <img src={emissora.icon} alt="" className="h-full w-full object-cover" />
                   </div>
@@ -223,11 +223,17 @@ export default function EPGTimeline() {
           <div className="pl-16 w-full overflow-scroll">
             <div className="flex flex-col gap-2 ">
               {emissorasValues.map((emissora, indexEmissora) => {
-                return <div className="h-[200px]  w-full ">
+                return <div className="h-[200px]  w-full " key={indexEmissora}>
                   <div className="flex h-full gap-1 ">
                     {emissora.programs.map((programa, indexPrograma) => {
                       return (
-                        <ProgramDynamicSize programa={programa} createReference={createReference} onClick={() => { }} />
+                        <ProgramDynamicSize
+                          key={indexPrograma}
+                          program={programa}
+                          broadcaster={emissora}
+                          broadcasterIndex={indexEmissora}
+                          createReference={createReference} onClick={() => { }}
+                        />
                       )
                     })}
                   </div>

@@ -12,16 +12,19 @@ import { emissoras } from "../configs/emissoras";
 
 export default function FooterProgramEPG({ createReference, programa, broadcasterIndex }) {
 
-  const emissorasValues = Object.values(emissoras)
   const navigate = useNavigate()
 
   function handleNavigateInfoDTV(programa) {
 
-    localStorage.setItem("program", JSON.stringify(programa))
-    localStorage.setItem("broadcaster", JSON.stringify(emissoras[programa.broadcaster]))
-    localStorage.setItem("broadcasterIndex", JSON.stringify(broadcasterIndex))
+    // Verificando se a emissora selecionada é a tvBrasil
+    if (broadcasterIndex === 0) {
 
-    navigate("/InitialApp")
+      localStorage.setItem("program", JSON.stringify(programa))
+      localStorage.setItem("broadcaster", JSON.stringify(emissoras[programa.broadcaster]))
+      localStorage.setItem("broadcasterIndex", JSON.stringify(broadcasterIndex))
+
+      navigate("/InitialApp")
+    }
   }
 
   return (

@@ -38,8 +38,6 @@ import UfrnIcon from '../assets/emissoras/Ufrn.png'
 import UnbIcon from '../assets/emissoras/Unb.png'
 import UnicampIcon from '../assets/emissoras/Unicamp.png'
 
-import FiretvIcon from '../assets/emissoras/Firetv.png'
-import GloboplayIcon from '../assets/emissoras/Globoplay.png'
 import RedeuniaoIcon from '../assets/emissoras/Redeuniao.svg'
 import RedevidaIcon from '../assets/emissoras/Redevida.png'
 import RedevidaeduIcon from '../assets/emissoras/Redevidaedu.svg'
@@ -50,11 +48,11 @@ import TvcidadeverdeIcon from '../assets/emissoras/Tvcidadeverde.png'
 import GloboEsporteIcon from "../assets/programs/globo_esporte.png"
 
 export const emissoras = {
-  tvbrasil: {
-    name: "tvbrasil",
+  tvBrasil: {
+    name: "Tv Brasil",
     icon: TvbrasilIcon,
-    slogan: "slogan do canal",
-    initialContent: 3,
+    slogan: "Slogan Tv Brasil",
+    initialContent: 0,
     programs: [
       {
         title: "Titulo do programa",
@@ -68,7 +66,7 @@ export const emissoras = {
         genre: "telejornalismo",
         availableUntil: "28/07/2024",
         video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
-        broadcaster: "band",
+        broadcaster: "tvBrasil",
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
@@ -87,7 +85,7 @@ export const emissoras = {
         genre: "telejornalismo",
         availableUntil: "28/07/2024",
         video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
-        broadcaster: "band",
+        broadcaster: "tvBrasil",
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
@@ -106,7 +104,7 @@ export const emissoras = {
         genre: "telejornalismo",
         availableUntil: "28/07/2024",
         video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
-        broadcaster: "band",
+        broadcaster: "tvBrasil",
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
@@ -125,7 +123,7 @@ export const emissoras = {
         genre: "telejornalismo",
         availableUntil: "28/07/2024",
         video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
-        broadcaster: "band",
+        broadcaster: "tvBrasil",
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
@@ -143,7 +141,7 @@ export const emissoras = {
         genre: "telejornalismo",
         availableUntil: "28/07/2024",
         video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
-        broadcaster: "band",
+        broadcaster: "tvBrasil",
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
@@ -162,7 +160,7 @@ export const emissoras = {
         genre: "telejornalismo",
         availableUntil: "28/07/2024",
         video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
-        broadcaster: "band",
+        broadcaster: "tvBrasil",
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",

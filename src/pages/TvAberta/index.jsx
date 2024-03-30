@@ -96,7 +96,6 @@ export default function TvAberta() {
   function handleClickEmissora(emissora, emissoraIndex) {
     setDataToStreamingLocalStorage(emissoraIndex)
 
-
     navigate("/InitialApp")
   }
 

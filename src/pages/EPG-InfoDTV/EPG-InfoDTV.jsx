@@ -18,8 +18,11 @@ import FooterInfoDTV from "../../components/FooterInfoDTV";
 export default function EPGInfoDTV() {
 
   const location = useLocation();
+
   const program = location.state.program // Já ta no ponto de receber o programa dinamicamente
+  const broadcaster = location.state.broadcaster // Já ta no ponto de receber o programa dinamicamente
   const broadcasterIndex = location.state.broadcasterIndex
+
 
   const refs = useRef([]);
   const navigate = useNavigate();

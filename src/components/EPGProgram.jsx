@@ -18,6 +18,7 @@ export default function EPGProgram({ broadcasterIndex, broadcaster, createRefere
     navigate("/EPG-InfoDTV", {
       state: {
         program,
+        broadcaster,
         broadcasterIndex
       }
     })

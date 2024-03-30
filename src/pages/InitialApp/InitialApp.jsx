@@ -81,12 +81,14 @@ export default function InitialApp() {
       return handleFocusElement(key);
     }
 
-    return navigate(`/${keyMapping[key.code]}`, {
-      state: {
-        broadcaster,
-        program
-      }
-    });
+    if (broadcaster.name === "Tv Brasil") {
+      return navigate(`/${keyMapping[key.code]}`, {
+        state: {
+          broadcaster,
+          program
+        }
+      });
+    }
   }
 
   // Função utilizada para navegação pelo teclado
