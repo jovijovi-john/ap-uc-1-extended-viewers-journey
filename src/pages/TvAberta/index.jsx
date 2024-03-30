@@ -8,6 +8,8 @@ import Profile from "../../components/Profile.jsx"
 import FooterTvAberta from "../../components/FooterTvAberta.jsx"
 import RadiodifusorCard from "../../components/RadiodifusorCard.jsx"
 
+
+import { setDataToStreamingLocalStorage } from "../../utils/dataStreaming.js"
 import keyMapping from './keyMapping.js'
 
 import { emissoras } from "../../configs/emissoras.js"
@@ -91,14 +93,11 @@ export default function TvAberta() {
     window.onkeydown = handleKeyDown;
   }, []);
 
-  function handleClickEmissora(emissora,) {
+  function handleClickEmissora(emissora, emissoraIndex) {
+    setDataToStreamingLocalStorage(emissoraIndex)
 
-    navigate("/InitialApp", {
-      state: {
-        programa: emissora.programs[emissora.initialContent],
-        emissora
-      }
-    })
+
+    navigate("/InitialApp")
   }
 
   return (
@@ -114,7 +113,7 @@ export default function TvAberta() {
           {emissorasValues.map((radiodifusor, radiodifusorIndex) => {
             return <RadiodifusorCard
               createReference={createReference}
-              onClick={() => handleClickEmissora(radiodifusor)}
+              onClick={() => handleClickEmissora(radiodifusor, radiodifusorIndex)}
               key={radiodifusorIndex}
               classNames={"w-[300px] h-[150px] bg-white"}
               icon={radiodifusor.icon}
