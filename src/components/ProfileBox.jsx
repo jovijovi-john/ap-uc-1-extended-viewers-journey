@@ -4,7 +4,7 @@ export default function ProfileBox({ icon }) {
   const nome = JSON.parse(localStorage.getItem("username")) ?? "Anônimo"
 
   return (
-    <div className="flex flex-row items-center justify-end p-4">
+    <div className="flex flex-row items-center  p-4">
       <h3 className="mr-5 text-2xl font-semibold text-right text-sky-400">
         {nome}
       </h3>

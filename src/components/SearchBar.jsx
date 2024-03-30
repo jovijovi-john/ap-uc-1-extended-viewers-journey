@@ -8,7 +8,7 @@ import ScaleFocusHover from "./ScaleFocusHover";
 
 export default function SearchBar({ createReference }) {
   return (
-    <div className="flex flex-1 gap-4 max-w-[600px] h-[70px] bg-zinc-700 rounded-md px-8 items-center ">
+    <div className="flex flex-1 gap-4 max-w-[600px] ml-auto h-[70px] bg-zinc-700 rounded-md px-8 items-center ">
       <ScaleFocusHover createReference={createReference} classNames={"p-2"}>
         <FaSearch
           size={35}

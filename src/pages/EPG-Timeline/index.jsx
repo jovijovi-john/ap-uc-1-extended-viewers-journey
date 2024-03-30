@@ -179,14 +179,14 @@ export default function EPGTimeline() {
 
         </div> */}
 
-        <div className="grid grid-cols-[300px,1fr] grid-rows-[80px,1fr] overflow-hidden">
+        <div className="grid grid-cols-[300px,1fr] grid-rows-[80px,1fr] relative min-h-[800px] overflow-hidden ">
 
           {/* -------------------------------- HEADER --------------------------------------------------- */}
           <div className="sticky left-0 bg-zinc-800 z-50">
 
           </div>
 
-          <div className="flex w-full pl-16 ">
+          <div className="sticky left-0 top-0 flex w-full pl-16 ">
             {schedules.map((schedule, index) => {
               return (
                 <div className="w-[200px] relative" key={index}>
@@ -204,7 +204,7 @@ export default function EPGTimeline() {
 
           {/* -------------------------------- EMISSORAS --------------------------------------------------- */}
 
-          <div className="flex flex-col h-full gap-4  sticky left-0 bg-zinc-800 pr-8">
+          <div className="flex flex-col h-full gap-2  sticky left-0 bg-zinc-800 pr-8">
 
             {emissorasValues.map((emissora, index) => {
               return (
