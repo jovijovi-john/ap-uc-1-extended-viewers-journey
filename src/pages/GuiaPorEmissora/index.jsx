@@ -62,8 +62,8 @@ export default function GuiaPorEmissora() {
   function handleFocusElement(keyPressed, keysFunctions) {
     if (!keysFunctions) {
       keysFunctions = {
-        ArrowUp: -11,
-        ArrowDown: 11,
+        ArrowUp: -10,
+        ArrowDown: 10,
         ArrowLeft: -1,
         ArrowRight: 1,
       };
@@ -72,42 +72,7 @@ export default function GuiaPorEmissora() {
     if (keysFunctions[keyPressed.code]) {
       keyPressed.preventDefault();
 
-      let newFocus;
-
-      if (keyPressed.code === "ArrowDown") {
-
-        // Se o foco está no header
-        if (focusIndex <= 3) {
-          newFocus = 4
-
-          // Se o foco está nas duas primeiras linhas dos radiodifusores
-        } else if (focusIndex < 26) {
-          newFocus = focusIndex + 11
-
-          // Se o foco está na ultima linha dos radiodifusores
-        } else if (focusIndex < 36) {
-          newFocus = refs.current.length - 2
-
-          // Se o foco está no footer
-        } else {
-          newFocus = refs.current.length - 1
-        }
-
-      } else if (keyPressed.code === "ArrowUp") {
-
-        // Se o foco está em algum elemento do footer
-        if (focusIndex === refs.current.length - 2 || focusIndex === refs.current.length - 1) {
-          newFocus = 26
-
-          // Se o foco está em qualquer outro elemento
-        } else {
-          newFocus = focusIndex - 11
-        }
-
-        // Aqui é a verificação pra esquerda e direita
-      } else {
-        newFocus = focusIndex + keysFunctions[keyPressed.code];
-      }
+      let newFocus = focusIndex + keysFunctions[keyPressed.code];
 
       // Aqui ta verificando se o valor de foco atualiza ta válido ou não 
       if (newFocus < 0) {
@@ -147,10 +112,10 @@ export default function GuiaPorEmissora() {
 
       <main className='flex flex-col justify-center gap-4 w-full bg-zinc-800 flex-1 p-8 rounded-lg overflow-hidden'>
 
-        <div className='flex flex-col gap-4 w-full h-full overflow-scrol'>
+        <div className='flex flex-col gap-4 w-full h-full overflow-scroll'>
           {canais.map((canal, indexCanal) => {
             return (
-              <div className='flex gap-4 items-center' key={indexCanal} >
+              <div className='flex gap-4 items-center ' key={indexCanal} >
 
                 {/* Radiodifusor */}
                 <ScaleFocusHover createReference={createReference} classNames={"flex flex-col p-4 gap-4 rounded text-white min-w-44 items-center"} onClick={() => navigate("/GuiaRadiodifusor")}>
@@ -159,7 +124,7 @@ export default function GuiaPorEmissora() {
                 </ScaleFocusHover>
 
                 {/* Programas */}
-                <div className='flex gap-5 ml-8 overflow-hidden'>
+                <div className='flex gap-5 ml-8 '>
                   {
                     canal.programs.map((programa, indexPrograma) => {
                       return (
