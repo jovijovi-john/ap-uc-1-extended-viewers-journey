@@ -38,7 +38,7 @@ export default function InitialAppContent({ createReference, programa, emissora 
               {programa.summary}
             </p>
 
-            <Rating type={programa.rating} />
+            <Rating type={programa.rating} className={"ml-4"} />
           </div>
         </div>
       </div>

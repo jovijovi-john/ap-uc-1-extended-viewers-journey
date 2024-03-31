@@ -45,37 +45,199 @@ import TvcidadeverdeIcon from '../assets/emissoras/Tvcidadeverde.png'
 
 // PROGRAMAS
 
-// GloboEsporteIcon
-
 // -> GenericProgram:
 import GenericProgram from "../assets/emissoras2/genericProgram/alice_dos_anjos.mp4"
 import GenericProgramBanner from "../assets/emissoras2/genericProgram/banner.jpeg"
-import GloboEsporteIcon from "../assets/emissoras2/genericProgram/banner.jpeg"
+import GenericProgramIcon from "../assets/emissoras2/genericProgram/banner.jpeg"
+
+// ============================== -> Tv Brasil ====================================================================
+
+// Dando a real
+import DandoARealVideo from "../assets/emissoras2/tvBrasil/dando_a_real/video.mp4"
+import DandoARealBanner from "../assets/emissoras2/tvBrasil/dando_a_real/banner.jpeg"
+
+// Trilha de Letras
+import TrilhaDeLetrasVideo from "../assets/emissoras2/tvBrasil/trilha_de_letras/video.mp4"
+import TrilhaDeLetrasBanner from "../assets/emissoras2/tvBrasil/trilha_de_letras/banner.jpeg"
+
+// Tem crianca na cozinha
+import TemCriancaNaCozinhaVideo from "../assets/emissoras2/tvBrasil/tem_crianca_na_cozinha/video.mp4"
+import TemCriancaNaCozinhaBanner from "../assets/emissoras2/tvBrasil/tem_crianca_na_cozinha/banner.webp"
+
+// ReporterBrasil
+import ReporterBrasilVideo from "../assets/emissoras2/tvBrasil/reporter_brasil/video.mp4"
+import ReporterBrasilBanner from "../assets/emissoras2/tvBrasil/reporter_brasil/banner.jpeg"
+
+// Taina
+import TainaVideo from "../assets/emissoras2/tvBrasil/taina/video.mp4"
+import TainaBanner from "../assets/emissoras2/tvBrasil/taina/banner.jpeg"
+
+// Sem Censura
+import SemCensuraVideo from "../assets/emissoras2/tvBrasil/sem_censura/video.mp4"
+import SemCensuraBanner from "../assets/emissoras2/tvBrasil/sem_censura/banner.jpeg"
+
+// ============================== -> Globo ====================================================================
+
+// Encontro
+import EncontroVideo from "../assets/emissoras2/globo/programas/encontro/video.mp4"
+import EncontroBanner from "../assets/emissoras2/globo/programas/encontro/banner.png"
+
+// ============================== -> Band ====================================================================
+
+// Melhor da tarde
+import MelhorDaTardeVideo from "../assets/emissoras2/band/programas/melhor_da_tarde/video.mp4"
+import MelhorDaTardeBanner from "../assets/emissoras2/band/programas/melhor_da_tarde/banner.jpg"
+
+// ============================== -> SBT ====================================================================
+
+// A Gata
+import AGataVideo from "../assets/emissoras2/sbt/programas/a_gata/video.mp4"
+import AGataBanner from "../assets/emissoras2/sbt/programas/a_gata/banner.jpg"
+
+// ============================== -> Tv Câmara ====================================================================
+
+// Comissão Ao Vivo
+import ComissaoVideo from "../assets/emissoras2/tvCamara/programas/comissao_ao_vivo/video.mp4"
+import ComissaoBanner from "../assets/emissoras2/tvCamara/programas/comissao_ao_vivo/banner.png"
+
+
+// ============================== -> Record ====================================================================
+
+// Comissão Ao Vivo
+import HojeEmDiaVideo from "../assets/emissoras2/record/programas/hoje_em_dia/video.mp4"
+import HojeEmDiaBanner from "../assets/emissoras2/record/programas/hoje_em_dia/banner.jpeg"
+
+// ============================== -> Tv Justiça ====================================================================
+
+// Comissão Ao Vivo
+import BoletimJusticaVideo from "../assets/emissoras2/tvJustica/programas/boletim_justica/video.mp4"
+import BoletimJusticaBanner from "../assets/emissoras2/tvJustica/programas/boletim_justica/banner.jpeg"
+
+// ============================== -> Tv Senado ====================================================================
+
+// Comissão Ao Vivo
+import HistoriasDoBrasilVideo from "../assets/emissoras2/tvSenado/programas/historias_do_brasil/video.mp4"
+import HistoriasDoBrasilBanner from "../assets/emissoras2/tvSenado/programas/historias_do_brasil/banner.jpg"
+
 
 export const emissoras = {
   tvBrasil: {
     name: "Tv Brasil",
     icon: TvbrasilIcon,
-    slogan: "Slogan Tv Brasil",
-    initialContent: 0,
+    slogan: "A tela da gente",
+    initialContent: 1,
     programs: [
       {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        title: "Dando a real",
+        summary: "A apresentadora de TV, atriz e psicóloga Maria Paula é a convidada do DR com Demori. Depois de ter sido VJ da MTV e integrante do programa humorístico Casseta & Planeta, Urgente!, a carreira de Maria Paula seguiu outro rumo. Fundadora da Embaixada da Paz, também é embaixadora da Rede Brasileira de Bancos de Leite Humano.",
         blocked: false,
         rating: "livre",
-        banner: GenericProgramBanner,
+        banner: DandoARealBanner,
         startTime: "14:00",
         endTime: "15:00",
         downloadable: true,
         genre: "filmes",
         availableUntil: "28/07/2024",
-        video: GenericProgram,
+        video: DandoARealVideo,
         broadcaster: "tvBrasil",
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: DandoARealBanner
+      },
+
+      {
+        title: "Trilha de Letras",
+        summary: "O Trilha de Letras debate temas atuais por meio da literatura. Nesta quarta temporada, a jornalista, escritora e roteirista Eliana Alves Cruz assume a apresentação do programa.",
+        blocked: false,
+        rating: "livre",
+        banner: TrilhaDeLetrasBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: TrilhaDeLetrasVideo,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: TrilhaDeLetrasBanner
+      },
+
+      {
+        title: "Tem Criança na Cozinha",
+        summary: "Tem Criança na Cozinha mostra receitas para fazer com os pequenos.",
+        blocked: false,
+        rating: "livre",
+        banner: TemCriancaNaCozinhaBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: TemCriancaNaCozinhaVideo,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: TemCriancaNaCozinhaBanner
+      },
+
+      {
+        title: "Repórter Brasil Tarde",
+        summary: "Sob o comando de Luciana Barreto, o Repórter Brasil Tarde reúne as principais notícias do dia no país e no mundo com links ao vivo do Rio de Janeiro, São Paulo e Brasília. A atração combina política, economia, comportamento, notícias internacionais e prestação de serviço. Apresenta ainda conteúdos de esportes olímpicos e paralímpicos e tem a participação de comentaristas do canal que analisam a rodada das principais competições.",
+        blocked: false,
+        rating: "livre",
+        banner: ReporterBrasilBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: ReporterBrasilVideo,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: ReporterBrasilBanner
+      },
+      {
+        title: "Tainá e os Guardiões da Amazônia",
+        summary: "Quando a floresta está em apuros, o chamado 'Cru-Cru' ecoa até a Grande Árvore, onde a corajosa indiazinha Tainá e os Guardiões da Amazônia estão sempre prontos para ajudar.",
+        blocked: false,
+        rating: "livre",
+        banner: TainaBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: TainaVideo,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: TainaBanner
+      },
+
+      {
+        title: "Sem Censura",
+        summary: "Referência na televisão aberta, o programa Sem Censura, da TV Brasil, está de volta à grade da emissora, com apresentação de Cissa Guimarães. Com uma história de mais de 38 anos, o programa volta às origens de transmissão diária e ao vivo. De segunda a sexta-feira, Cissa comanda as tardes da TV Brasil em cenário totalmente repaginado.",
+        blocked: false,
+        rating: "livre",
+        banner: SemCensuraBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: SemCensuraVideo,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: SemCensuraBanner
       },
 
       {
@@ -94,7 +256,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -113,107 +275,13 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
 
 
     ],
-    related: [0, 1, 2, 3, 4]
+    related: [0, 2, 3, 4, 5]
 
   },
 
@@ -221,25 +289,25 @@ export const emissoras = {
     name: "globo",
     icon: GloboIcon,
     slogan: "slogan do canal",
-    initialContent: 3,
+    initialContent: 0,
     programs: [
       {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        title: "Encontro com Patrícia Poeta",
+        summary: "Patrícia Poeta comanda o programa que mistura comportamento, prestação de serviço, informação, música, entretenimento e muita diversão.",
         blocked: false,
         rating: "livre",
-        banner: GenericProgramBanner,
+        banner: EncontroBanner,
         startTime: "14:00",
         endTime: "15:00",
         downloadable: true,
         genre: "filmes",
         availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
+        video: EncontroVideo,
+        broadcaster: "globo",
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: EncontroBanner
       },
 
       {
@@ -258,7 +326,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -277,7 +345,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -296,7 +364,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -314,7 +382,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -333,7 +401,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -342,46 +410,28 @@ export const emissoras = {
   },
 
   band: {
-    name: "band",
+    name: "Band",
     icon: BandIcon,
-    slogan: "slogan do canal",
-    initialContent: 3,
+    slogan: "Prazer em Ver",
+    initialContent: 0,
     programs: [
       {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        title: "Melhor da Tarde",
+        summary: "Melhor da Tarde é o programa comandado por Cátia Fonseca nas tardes da Band. De segunda à sexta, a apresentadora reúne um time de colaboradores para bater um papo sobre culinária, astrologia, fofoca e as discussões mais quentes do momento.",
         blocked: false,
         rating: "livre",
-        banner: GenericProgramBanner,
+        banner: MelhorDaTardeBanner,
         startTime: "14:00",
         endTime: "15:00",
         downloadable: true,
         genre: "filmes",
         availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
+        video: MelhorDaTardeVideo,
+        broadcaster: "band",
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: MelhorDaTardeBanner
       },
 
       {
@@ -400,7 +450,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -419,25 +469,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -456,37 +488,73 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
+      },
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
       },
 
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
 
     ],
-    related: [0, 1, 2, 3, 4],
+    related: [0, 1, 2, 3, 4]
   },
 
   sbt: {
-    name: "sbt",
+    name: "SBT",
     icon: SbtIcon,
-    slogan: "slogan do canal",
-    initialContent: 3,
+    slogan: "É coisa nossa!",
+    initialContent: 0,
     programs: [
       {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        title: "A gata",
+        summary: "A trama narra a história de Esmeralda (A Gata), uma menina de 12 anos que vive em um bairro pobre e em condições desfavoráveis, que sobrevive recolhendo lixo. Desde pequena é amiga de Paulo, um menino de 15 anos, rico e que a defende dos ataques de outras crianças. Paulo sente compaixão por Esmeralda, e por isso fica indignado com Dona Rita, uma velha exploradora que cria Esmeralda e Centavinho, e os manda vender bugigangas e pedir dinheiro para comprar comida.",
         blocked: false,
         rating: "livre",
-        banner: GenericProgramBanner,
+        banner: AGataBanner,
         startTime: "14:00",
         endTime: "15:00",
         downloadable: true,
         genre: "filmes",
         availableUntil: "28/07/2024",
-        video: GenericProgram,
+        video: AGataVideo,
         broadcaster: "tvBrasil",
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: AGataBanner
       },
 
       {
@@ -505,7 +573,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -524,7 +592,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -543,7 +611,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -561,7 +629,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -580,7 +648,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -589,28 +657,28 @@ export const emissoras = {
   },
 
   tvcamara: {
-    name: "tvcamara",
+    name: "Tv Câmara",
     icon: TvcamaraIcon,
-    slogan: "slogan do canal",
-    initialContent: 3,
+    slogan: "Ligada no que importa",
+    initialContent: 0,
     programs: [
       {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        title: "Comissão AO VIVO",
+        summary: "Acompanhe ao vivo as discussões de comissões da Câmara",
         blocked: false,
         rating: "livre",
-        banner: GenericProgramBanner,
+        banner: ComissaoBanner,
         startTime: "14:00",
         endTime: "15:00",
         downloadable: true,
         genre: "filmes",
         availableUntil: "28/07/2024",
-        video: GenericProgram,
+        video: ComissaoVideo,
         broadcaster: "tvBrasil",
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: ComissaoBanner
       },
 
       {
@@ -629,7 +697,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -648,7 +716,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -667,7 +735,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -685,7 +753,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -704,7 +772,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -713,28 +781,28 @@ export const emissoras = {
   },
 
   record: {
-    name: "Record",
+    name: "Tv Record",
     icon: RecordIcon,
-    slogan: "slogan do canal",
-    initialContent: 3,
+    slogan: "Tem a sua cara",
+    initialContent: 0,
     programs: [
       {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        title: "Hoje em Dia",
+        summary: "Ana Hickmann, Celso Zucatelli, Renata Alves e Ticiane Pinheiro comandam a atração matinal da Record. Notícias, prestação de serviço e entretenimento na medida certa dão o ritmo do Hoje em Dia. Informar e formar a opinião pública, sem perder de vista a opção de lazer que muitos brasileiros buscam na telinha.",
         blocked: false,
         rating: "livre",
-        banner: GenericProgramBanner,
+        banner: HojeEmDiaBanner,
         startTime: "14:00",
         endTime: "15:00",
         downloadable: true,
         genre: "filmes",
         availableUntil: "28/07/2024",
-        video: GenericProgram,
+        video: HojeEmDiaVideo,
         broadcaster: "tvBrasil",
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: HojeEmDiaBanner
       },
 
       {
@@ -753,7 +821,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -772,7 +840,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -791,7 +859,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -809,7 +877,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -828,11 +896,258 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
     related: [0, 1, 2, 3, 4]
+  },
+
+  tvJustica: {
+    name: "Tv Justiça",
+    icon: TvJusticaIcon,
+    slogan: "Slogan da Tv Justiça",
+    initialContent: 0,
+    programs: [
+      {
+        title: "Boletim Justiça Agora",
+        summary: "Boletim diário com destaques e decisões dos tribunais brasileiros.",
+        blocked: false,
+        rating: "livre",
+        banner: BoletimJusticaBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: BoletimJusticaVideo,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: BoletimJusticaBanner
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+    ],
+    related: [0, 1, 2, 3, 4]
+  },
+
+  tvsenado: {
+    name: "Tv Senado",
+    icon: TvsenadoIcon,
+    slogan: " Democracia todo dia",
+    initialContent: 0,
+    programs: [
+      {
+        title: "Histórias do Brasil",
+        summary: "25 de setembro é o Dia Nacional do Rádio. O dia foi escolhido em homenagem ao nascimento de Edgar Roquette-Pinto, responsável pela primeira transmissão radiofônica no Brasil. Conheça mais sobre a história do Rádio em mais um episódio do programa Histórias do Brasil da TV Senado.",
+        blocked: false,
+        rating: "livre",
+        banner: HistoriasDoBrasilBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: HistoriasDoBrasilVideo,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: HistoriasDoBrasilBanner
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+    ],
+    related: [0, 1, 2, 3, 4]
+
   },
 
   boasnovas: {
@@ -857,7 +1172,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -876,7 +1191,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -895,7 +1210,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -914,7 +1229,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -933,7 +1248,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -952,7 +1267,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
 
@@ -983,7 +1298,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1002,7 +1317,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1021,7 +1336,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1040,7 +1355,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1059,7 +1374,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1078,7 +1393,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -1108,7 +1423,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1127,7 +1442,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1146,7 +1461,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1165,7 +1480,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1184,7 +1499,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1203,7 +1518,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
 
@@ -1234,7 +1549,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1253,7 +1568,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1272,7 +1587,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1291,7 +1606,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1310,7 +1625,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1329,7 +1644,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
     ],
     related: [0, 1, 2, 3, 4]
@@ -1358,7 +1673,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1377,7 +1692,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1396,7 +1711,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1415,7 +1730,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -1433,7 +1748,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1452,7 +1767,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -1482,7 +1797,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1501,7 +1816,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1520,7 +1835,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1539,7 +1854,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -1557,7 +1872,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1576,7 +1891,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -1607,7 +1922,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1626,7 +1941,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1645,7 +1960,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1664,7 +1979,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -1682,7 +1997,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1701,7 +2016,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -1733,7 +2048,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1752,7 +2067,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1771,7 +2086,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1790,7 +2105,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -1808,44 +2123,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1864,7 +2142,25 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
+      },
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
       },
 
       {
@@ -1883,7 +2179,26 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
       },
     ],
     related: [0, 1, 2, 3, 4]
@@ -1912,7 +2227,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1931,7 +2246,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1950,7 +2265,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -1969,7 +2284,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -1987,7 +2302,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2006,7 +2321,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -2036,7 +2351,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2055,7 +2370,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2074,7 +2389,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2093,7 +2408,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -2111,7 +2426,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2130,7 +2445,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -2162,7 +2477,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2181,7 +2496,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2200,7 +2515,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2219,7 +2534,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -2237,7 +2552,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2256,7 +2571,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -2289,7 +2604,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2308,7 +2623,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2327,7 +2642,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2346,7 +2661,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -2364,7 +2679,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2383,7 +2698,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -2413,7 +2728,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2432,7 +2747,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2451,7 +2766,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2470,7 +2785,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -2488,7 +2803,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2507,7 +2822,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -2537,7 +2852,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2556,7 +2871,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2575,7 +2890,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2594,7 +2909,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -2612,7 +2927,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2631,7 +2946,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -2661,7 +2976,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2680,7 +2995,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2699,7 +3014,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2718,7 +3033,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -2736,7 +3051,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2755,136 +3070,13 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
     related: [0, 1, 2, 3, 4]
   },
 
-
-  tvJustica: {
-    name: "Tv Justiça",
-    icon: TvJusticaIcon,
-    slogan: "slogan do canal",
-    initialContent: 3,
-    programs: [
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-    ],
-    related: [0, 1, 2, 3, 4]
-  },
 
 
   tvnazare: {
@@ -2909,7 +3101,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2928,7 +3120,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2947,7 +3139,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -2966,7 +3158,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -2984,7 +3176,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3003,7 +3195,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -3033,7 +3225,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3052,7 +3244,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3071,7 +3263,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3090,7 +3282,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -3108,7 +3300,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3127,7 +3319,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -3157,7 +3349,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3176,7 +3368,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3195,7 +3387,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3214,7 +3406,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -3232,7 +3424,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3251,7 +3443,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -3259,129 +3451,6 @@ export const emissoras = {
 
   },
 
-  tvsenado: {
-    name: "tvsenado",
-    icon: TvsenadoIcon,
-    slogan: "slogan do canal",
-    initialContent: 3,
-    programs: [
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-      {
-        title: "Alice dos Anjos",
-        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
-        blocked: false,
-        rating: "livre",
-        banner: GenericProgramBanner,
-        startTime: "14:00",
-        endTime: "15:00",
-        downloadable: true,
-        genre: "filmes",
-        availableUntil: "28/07/2024",
-        video: GenericProgram,
-        broadcaster: "tvBrasil",
-        isLive: true,
-        isOnAir: false,
-        advice: "Assista agora!",
-        icon: GloboEsporteIcon
-      },
-
-    ],
-    related: [0, 1, 2, 3, 4]
-
-  },
 
   tvufma: {
     name: "tvufma",
@@ -3405,7 +3474,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3424,7 +3493,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3443,7 +3512,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3462,7 +3531,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -3480,7 +3549,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3499,7 +3568,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -3529,7 +3598,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3548,7 +3617,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3567,7 +3636,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3586,7 +3655,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -3604,7 +3673,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3623,7 +3692,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -3653,7 +3722,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3672,7 +3741,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3691,7 +3760,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3710,7 +3779,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -3728,7 +3797,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3747,7 +3816,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -3777,7 +3846,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3796,7 +3865,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3815,7 +3884,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3834,7 +3903,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -3852,7 +3921,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3871,7 +3940,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -3901,7 +3970,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3920,7 +3989,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3939,7 +4008,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3958,7 +4027,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -3976,7 +4045,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -3995,7 +4064,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -4025,7 +4094,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4044,7 +4113,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4063,7 +4132,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4082,7 +4151,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -4100,7 +4169,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4119,7 +4188,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -4149,7 +4218,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4168,7 +4237,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4187,7 +4256,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4206,7 +4275,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -4224,7 +4293,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4243,7 +4312,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -4273,7 +4342,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4292,7 +4361,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4311,7 +4380,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4330,7 +4399,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -4348,7 +4417,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4367,7 +4436,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -4397,7 +4466,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4416,7 +4485,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4435,7 +4504,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4454,7 +4523,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -4472,7 +4541,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4491,7 +4560,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -4521,7 +4590,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4540,7 +4609,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4559,7 +4628,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4578,7 +4647,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -4596,7 +4665,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4615,7 +4684,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -4645,7 +4714,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4664,7 +4733,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4683,7 +4752,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4702,7 +4771,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -4720,7 +4789,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4739,7 +4808,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -4769,7 +4838,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4788,7 +4857,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4807,7 +4876,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4826,7 +4895,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -4844,7 +4913,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4863,7 +4932,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -4893,7 +4962,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4912,7 +4981,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4931,7 +5000,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4950,7 +5019,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -4968,7 +5037,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -4987,7 +5056,7 @@ export const emissoras = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -5020,7 +5089,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5039,7 +5108,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5058,7 +5127,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5077,7 +5146,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -5095,7 +5164,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5114,7 +5183,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -5132,18 +5201,18 @@ export const initialBroadcasters = {
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
         blocked: false,
         rating: "livre",
-        banner: GenericProgramBanner,
+        banner: MelhorDaTardeBanner,
         startTime: "14:00",
         endTime: "15:00",
         downloadable: true,
         genre: "filmes",
         availableUntil: "28/07/2024",
-        video: GenericProgram,
+        video: MelhorDaTardeVideo,
         broadcaster: "tvBrasil",
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: MelhorDaTardeBanner
       },
 
       {
@@ -5162,7 +5231,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5181,7 +5250,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5200,7 +5269,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -5218,7 +5287,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5237,7 +5306,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -5266,7 +5335,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5285,7 +5354,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5304,7 +5373,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5323,7 +5392,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -5341,7 +5410,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5360,7 +5429,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -5389,7 +5458,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5408,7 +5477,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5427,7 +5496,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5446,7 +5515,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -5464,7 +5533,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5483,7 +5552,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -5493,7 +5562,7 @@ export const initialBroadcasters = {
   globo: {
     name: "Globo",
     icon: GloboIcon,
-    slogan: "slogan do canal",
+    slogan: "Globo. A gente se vê por aqui",
     initialContent: 3,
     programs: [
       {
@@ -5512,7 +5581,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5531,7 +5600,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5550,7 +5619,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5569,7 +5638,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -5587,7 +5656,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5606,7 +5675,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -5635,7 +5704,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5654,7 +5723,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5673,7 +5742,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5692,7 +5761,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -5710,7 +5779,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5729,7 +5798,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -5758,7 +5827,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5777,7 +5846,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5796,7 +5865,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5815,7 +5884,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -5833,7 +5902,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5852,7 +5921,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -5881,7 +5950,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5900,7 +5969,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5919,7 +5988,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5938,7 +6007,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -5956,7 +6025,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -5975,7 +6044,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -6004,7 +6073,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -6023,7 +6092,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -6042,7 +6111,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -6061,7 +6130,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -6079,7 +6148,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -6098,7 +6167,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -6127,7 +6196,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -6146,7 +6215,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -6165,7 +6234,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -6184,7 +6253,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -6202,7 +6271,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -6221,7 +6290,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -6250,7 +6319,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -6269,7 +6338,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -6288,7 +6357,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -6307,7 +6376,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -6325,7 +6394,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -6344,7 +6413,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
@@ -6373,7 +6442,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -6392,7 +6461,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -6411,7 +6480,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -6430,7 +6499,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
       {
         title: "Alice dos Anjos",
@@ -6448,7 +6517,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
       {
@@ -6467,7 +6536,7 @@ export const initialBroadcasters = {
         isLive: true,
         isOnAir: false,
         advice: "Assista agora!",
-        icon: GloboEsporteIcon
+        icon: GenericProgramIcon
       },
 
     ],
