@@ -138,7 +138,7 @@ export default function GuiaCategoria() {
               generos[0].programs.map((programa, indexPrograma) => {
                 return (
                   <ScaleFocusHover
-                    onClick={() => handleNavigate(programa)}
+                    // onClick={() => handleNavigate(programa)}
                     createReference={createReference}
                     key={indexPrograma}
                   >

@@ -171,7 +171,8 @@ export default function GuiaPorGenero() {
                     return <ScaleFocusHover
                       createReference={createReference}
                       key={indexPrograma}
-                      onClick={() => handleNavigate(programa)}>
+                    // onClick={() => handleNavigate(programa)}
+                    >
 
                       <CardProgram
                         blocked={programa.blocked}
