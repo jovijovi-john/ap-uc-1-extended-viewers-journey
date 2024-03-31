@@ -24,7 +24,7 @@ export default function ProgramEPG({ createReference, programa, broadcasterIndex
               <CategoryStripe color={generos[programa.genre]} title={`${programa.genre}`} />
             </div>
 
-            <p className="text-white text-3xl mt-12">
+            <p className="text-white text-3xl mt-12 line-clamp-6">
               {programa.summary}
             </p>
           </div>

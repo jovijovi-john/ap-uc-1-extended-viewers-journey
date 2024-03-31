@@ -15,9 +15,9 @@ export default function ContentRecomendations({ createReference, emissora, progr
       <div className='flex flex-col max-w-[360px] gap-4'>
 
         <span className='text-xl text-zinc-200'>16:00 - 18:00</span>
-        <span className='text-white text-4xl font-semibold'>Titulo do Programa</span>
+        <span className='text-white text-4xl font-semibold'>{programa.title}</span>
 
-        <p className='text-2xl text-zinc-300 mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo necessitatibus exercitationem enim temporibus, veniam voluptatem, voluptatum aliquam nesciunt nihil quod, quas iusto! Culpa minus doloribus neque maiores, non sequi perferendis!</p>
+        <p className='text-2xl text-zinc-300 mb-4 line-clamp-[13]'>{programa.summary}</p>
 
         <Rating type={"livre"} size={"w-16"} />
 

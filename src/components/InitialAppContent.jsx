@@ -29,7 +29,7 @@ export default function InitialAppContent({ createReference, programa, emissora 
         </div>
 
         <div className="flex mb-10">
-          <div className="w-2/3 gap-4 flex flex-col text-gray-200 border-r-8">
+          <div className="gap-4 min-w-80 flex flex-col text-gray-200 border-r-8 pr-2">
             <h2 className="text-4xl font-bold ">{programa.title}</h2>
             <p className="text-2xl">{programa.startTime} - {programa.endTime}</p>
           </div>
