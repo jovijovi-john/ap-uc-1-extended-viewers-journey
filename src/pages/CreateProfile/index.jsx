@@ -155,8 +155,11 @@ export default function CreateProfile() {
     }
   }
 
-  function handleSubmit(e) {
+  function handleSubmitForm(e) {
     e.preventDefault()
+  }
+
+  function handleSubmit(e) {
 
     const formData = new FormData(formRef.current)
     const nome = formData.get("nome")
@@ -186,7 +189,7 @@ export default function CreateProfile() {
         </IconLeftTextRight>
       </Header>
 
-      <form className='h-full flex flex-col' onSubmit={handleSubmit} ref={formRef}>
+      <form className='h-full flex flex-col' onSubmit={handleSubmitForm} ref={formRef}>
         <main className='h-full w-full flex flex-col'>
 
           <div className='w-full grid grid-cols-[10fr,2fr] gap-4 mt-4'>
@@ -322,7 +325,7 @@ export default function CreateProfile() {
               </BorderedIcon>
             </IconLeftTextRight>
 
-            <IconLeftTextRight type={"submit"} classNames={"bg-green-700 max-h-[100px]"} createReference={createReference}>
+            <IconLeftTextRight classNames={"bg-green-700 max-h-[100px]"} createReference={createReference} onClick={() => handleSubmit()}>
               <p className='text-2xl font-semibold'>Avançar</p>
 
               <BorderedIcon color={"white"}>

@@ -69,10 +69,8 @@ export default function InitialApp() {
 
       setDataToStreamingLocalStorage(broadcasterIndex + 1)
       return window.location.reload()
-
     } else if (key.code === "PageDown") {
       setDataToStreamingLocalStorage(broadcasterIndex - 1)
-
       return window.location.reload()
     }
 
