@@ -112,7 +112,7 @@ export default function GuiaPorEmissora() {
 
       <main className='flex flex-col justify-center gap-4 w-full bg-zinc-800 flex-1 p-8 rounded-lg overflow-hidden'>
 
-        <div className='flex flex-col gap-4 w-full h-full overflow-scroll'>
+        <div className='flex flex-col gap-4 w-full h-full overflow-y-scroll overflow-x-hidden'>
           {canais.map((canal, indexCanal) => {
             return (
               <div className='flex gap-4 items-center ' key={indexCanal} >
@@ -153,7 +153,7 @@ export default function GuiaPorEmissora() {
                 <ScaleFocusHover createReference={createReference} classNames={"flex flex-col text-white  ml-auto w-44 rounded p-4 items-center"}>
                   <IoMdAdd size={72} />
                   <p className='text-md'>Mais streaming <br />
-                    Radiodifusor {indexCanal + 1}</p>
+                    {canal.name}</p>
                 </ScaleFocusHover>
               </div>
             )

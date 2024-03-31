@@ -20,7 +20,7 @@ export default function GuiaPorGenero({ createReference }) {
           <FaArrowLeft size={76} />
         </BorderedIcon>
 
-        <p>Voltar ao Guia de <br />
+        <p className='text-left'>Voltar ao Guia de <br />
           Streaming da TV aberta</p>
       </IconLeftTextRight>
 
