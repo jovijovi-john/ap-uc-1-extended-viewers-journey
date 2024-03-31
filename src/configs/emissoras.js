@@ -140,7 +140,7 @@ export const emissoras = {
         availableUntil: "28/07/2024",
         video: DandoARealVideo,
         broadcaster: "tvBrasil",
-        isLive: true,
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: DandoARealBanner
@@ -304,7 +304,7 @@ export const emissoras = {
         availableUntil: "28/07/2024",
         video: EncontroVideo,
         broadcaster: "globo",
-        isLive: true,
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: EncontroBanner
@@ -329,6 +329,43 @@ export const emissoras = {
         icon: GenericProgramIcon
       },
 
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -428,12 +465,48 @@ export const emissoras = {
         availableUntil: "28/07/2024",
         video: MelhorDaTardeVideo,
         broadcaster: "band",
-        isLive: true,
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: MelhorDaTardeBanner
       },
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
 
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -551,12 +624,48 @@ export const emissoras = {
         availableUntil: "28/07/2024",
         video: AGataVideo,
         broadcaster: "tvBrasil",
-        isLive: true,
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: AGataBanner
       },
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
 
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -675,12 +784,48 @@ export const emissoras = {
         availableUntil: "28/07/2024",
         video: ComissaoVideo,
         broadcaster: "tvBrasil",
-        isLive: true,
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: ComissaoBanner
       },
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
 
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -799,12 +944,48 @@ export const emissoras = {
         availableUntil: "28/07/2024",
         video: HojeEmDiaVideo,
         broadcaster: "tvBrasil",
-        isLive: true,
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: HojeEmDiaBanner
       },
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
 
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -922,12 +1103,48 @@ export const emissoras = {
         availableUntil: "28/07/2024",
         video: BoletimJusticaVideo,
         broadcaster: "tvBrasil",
-        isLive: true,
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: BoletimJusticaBanner
       },
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
 
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -1045,12 +1262,48 @@ export const emissoras = {
         availableUntil: "28/07/2024",
         video: HistoriasDoBrasilVideo,
         broadcaster: "tvBrasil",
-        isLive: true,
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: HistoriasDoBrasilBanner
       },
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
 
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -1156,6 +1409,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -1170,6 +1424,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -1282,6 +1572,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -1296,6 +1587,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -1407,6 +1734,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -1421,6 +1749,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -1533,6 +1897,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -1547,6 +1912,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -1657,6 +2058,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -1671,6 +2073,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -1781,6 +2219,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -1795,6 +2234,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -1906,6 +2381,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -1920,6 +2396,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -2024,14 +2536,13 @@ export const emissoras = {
 
   },
 
-
-
   recordnews: {
     name: "recordnews",
     icon: RecordnewsIcon,
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -2046,6 +2557,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -2211,6 +2758,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -2225,6 +2773,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -2335,6 +2919,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -2349,6 +2934,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -2452,8 +3073,6 @@ export const emissoras = {
     related: [0, 1, 2, 3, 4]
 
   },
-
-
 
   tvaparecida: {
     name: "tvaparecida",
@@ -2461,6 +3080,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -2475,6 +3095,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -2579,15 +3235,13 @@ export const emissoras = {
 
   },
 
-
-
-
   tvcidade: {
     name: "tvcidade",
     icon: TvcidadeIcon,
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -2602,6 +3256,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -2712,6 +3402,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -2745,6 +3436,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -2836,6 +3563,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -2850,6 +3578,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -2960,6 +3724,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -2974,6 +3739,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -3077,14 +3878,13 @@ export const emissoras = {
     related: [0, 1, 2, 3, 4]
   },
 
-
-
   tvnazare: {
     name: "tvnazare",
     icon: TvnazareIcon,
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -3099,6 +3899,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -3209,6 +4045,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -3223,6 +4060,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -3333,6 +4206,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -3347,6 +4221,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -3451,13 +4361,13 @@ export const emissoras = {
 
   },
 
-
   tvufma: {
     name: "tvufma",
     icon: TvufmaIcon,
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -3472,6 +4382,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -3582,6 +4528,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -3596,6 +4543,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -3706,6 +4689,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -3720,6 +4704,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -3830,6 +4850,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -3844,6 +4865,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -3954,6 +5011,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -3968,6 +5026,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -4078,6 +5172,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -4092,6 +5187,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -4202,6 +5333,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -4216,6 +5348,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -4326,6 +5494,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -4340,6 +5509,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -4450,6 +5655,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -4464,6 +5670,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -4574,6 +5816,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -4588,6 +5831,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -4698,6 +5977,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -4712,6 +5992,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -4822,6 +6138,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -4836,6 +6153,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -4946,6 +6299,7 @@ export const emissoras = {
     slogan: "slogan do canal",
     initialContent: 3,
     programs: [
+
       {
         title: "Alice dos Anjos",
         summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
@@ -4960,6 +6314,42 @@ export const emissoras = {
         video: GenericProgram,
         broadcaster: "tvBrasil",
         isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      },
+
+      {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GenericProgramIcon
+      }, {
+        title: "Alice dos Anjos",
+        summary: " Livremente inspirada em 'Alice no País das Maravilhas', seguimos uma menina de mesmo nome da protagonista de Lewis Carroll, Alice dos Anjos, que vive no sertão nordestino. Um dia, após perseguir um bode preto, apressado que usa terno e gravata no fundo do quintal de sua avó, ela é transportada para um lugar mágico, cheio de personagens malucos. Ela então se vê no meio de uma guerra entre um influente coronel que quer construir uma usina elétrica em uma comunidade local. A menina então se junta com a comunidade e os amigos que fez ao longo do caminho para destruir o coronel e salvar a cidade",
+        blocked: false,
+        rating: "livre",
+        banner: GenericProgramBanner,
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "filmes",
+        availableUntil: "28/07/2024",
+        video: GenericProgram,
+        broadcaster: "tvBrasil",
+        isLive: false,
         isOnAir: false,
         advice: "Assista agora!",
         icon: GenericProgramIcon
@@ -5064,7 +6454,6 @@ export const emissoras = {
 
   },
 };
-
 
 export const initialBroadcasters = {
   tvBrasil: {
