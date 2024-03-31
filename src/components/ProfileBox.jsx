@@ -1,7 +1,7 @@
 export default function ProfileBox({ icon }) {
 
   // Pegando o nome do localstorage
-  const nome = JSON.parse(localStorage.getItem("username")) ?? "Anônimo"
+  const nome = JSON.parse(localStorage.getItem("username")) || "Anônimo"
 
   return (
     <div className="flex flex-row items-center  p-4">
