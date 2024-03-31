@@ -151,7 +151,7 @@ export default function DiscoverChannels() {
 
 
           <footer className='flex flex-col items-center mt-auto'>
-            {(status === "scanning" || status === "finished") &&
+            {(status === "scanning" || status === "finished") & (scanProgress > 0) &&
               <div className='flex flex-col '>
                 <p className='text-center mx-auto text-2xl text-white mb-4'>Região identificada:</p>
                 <p className='text-center mx-auto text-2xl text-white'> <span className='font-bold'>País:</span> Brasil </p>
