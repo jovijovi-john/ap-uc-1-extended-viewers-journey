@@ -142,6 +142,14 @@ export default function EPGTimeline() {
   }, []);
 
   let schedules = [
+    "10:00",
+    "10:30",
+    "11:00",
+    "11:30",
+    "12:00",
+    "12:30",
+    "13:00",
+    "13:30",
     "14:00",
     "14:30",
     "15:00",
@@ -225,7 +233,7 @@ export default function EPGTimeline() {
               {emissorasValues.map((emissora, indexEmissora) => {
                 return <div className="h-[200px]  w-full " key={indexEmissora}>
                   <div className="flex h-full gap-1 ">
-                    {emissora.programs.map((programa, indexPrograma) => {
+                    {emissora.programs.slice(0, 9).map((programa, indexPrograma) => {
                       return (
                         <ProgramDynamicSize
                           key={indexPrograma}
