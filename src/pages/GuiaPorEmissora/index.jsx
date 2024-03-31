@@ -16,6 +16,7 @@ import { IoMdAdd } from "react-icons/io";
 import { emissoras } from "../../configs/emissoras"
 import keyMapping from "./keyMapping"
 import Profile from "../../components/Profile"
+import FocusableElement from '../../components/FocusableElement'
 
 export default function GuiaPorEmissora() {
 
@@ -112,25 +113,25 @@ export default function GuiaPorEmissora() {
 
       <main className='flex flex-col justify-center gap-4 w-full bg-zinc-800 flex-1 p-8 rounded-lg overflow-hidden'>
 
-        <div className='flex flex-col gap-4 w-full h-full overflow-y-scroll overflow-x-hidden'>
+        <div className='flex justify-between flex-col gap-4 w-full h-full overflow-y-scroll overflow-x-hidden'>
           {canais.map((canal, indexCanal) => {
             return (
-              <div className='flex gap-4 items-center ' key={indexCanal} >
+              <div className='flex p-4 gap-4 items-center ' key={indexCanal} >
 
                 {/* Radiodifusor */}
-                <ScaleFocusHover createReference={createReference} classNames={"flex flex-col p-4 gap-4 rounded text-white min-w-44 items-center"} onClick={() => navigate("/GuiaRadiodifusor")}>
+                <FocusableElement createReference={createReference} classNames={"flex flex-col p-4 gap-4 rounded text-white min-w-44 items-center"} onClick={() => navigate("/GuiaRadiodifusor")}>
                   <div className='w-[240px] h-[150px] rounded-lg overflow-hidden bg-white'>
                     <img src={canal.icon} alt="" className='object-cover w-full h-full' />
                   </div>
                   {/* <p className='text-2xl'>{canal.name}</p> */}
-                </ScaleFocusHover>
+                </FocusableElement>
 
                 {/* Programas */}
-                <div className='flex gap-5 ml-8 '>
+                <div className=' justify-center flex w-full gap-4 ml-8 '>
                   {
                     canal.programs.map((programa, indexPrograma) => {
                       return (
-                        <ScaleFocusHover
+                        <FocusableElement
                           // onClick={() => handleNavigate(programa)}
                           createReference={createReference}
                           key={indexPrograma}
@@ -143,18 +144,18 @@ export default function GuiaPorEmissora() {
                             genero={programa.genre}
                             icon={programa.icon}
                           />
-                        </ScaleFocusHover>
+                        </FocusableElement>
                       )
                     })
                   }
                 </div>
 
                 {/* ADD icon */}
-                <ScaleFocusHover createReference={createReference} classNames={"flex flex-col text-white  ml-auto w-44 rounded p-4 items-center"}>
+                <FocusableElement createReference={createReference} classNames={"flex flex-col text-white  ml-auto w-44 rounded py-4 items-center"}>
                   <IoMdAdd size={72} />
                   <p className='text-md'>Mais streaming <br />
                     {canal.name}</p>
-                </ScaleFocusHover>
+                </FocusableElement>
               </div>
             )
           })}
