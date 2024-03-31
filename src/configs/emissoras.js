@@ -57,7 +57,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -76,7 +76,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -95,7 +95,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -114,7 +114,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -132,7 +132,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -151,7 +151,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -166,6 +166,46 @@ export const emissoras = {
         advice: "Assista agora!",
         icon: GloboEsporteIcon
       },
+
+      {
+        title: "Titulo do programa",
+        summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
+        blcoked: false,
+        rating: 12,
+        banner: "https://github.com/csalles.png",
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "telejornalismo",
+        availableUntil: "28/07/2024",
+        video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GloboEsporteIcon
+      },
+
+      {
+        title: "Titulo do programa",
+        summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
+        blcoked: false,
+        rating: 12,
+        banner: "https://github.com/csalles.png",
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "telejornalismo",
+        availableUntil: "28/07/2024",
+        video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GloboEsporteIcon
+      },
+
+
 
     ],
     related: [0, 1, 2, 3, 4]
@@ -181,7 +221,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -200,7 +240,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -219,7 +259,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -238,7 +278,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -256,7 +296,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -275,7 +315,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -305,7 +345,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -323,7 +363,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 14,
         banner: "https://github.com/csalles.png",
         startTime: "15:30",
@@ -342,7 +382,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 18,
         banner: "https://github.com/csalles.png",
         startTime: "16:00",
@@ -361,7 +401,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -379,7 +419,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -398,7 +438,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -428,7 +468,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -447,7 +487,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -466,7 +506,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -485,7 +525,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -503,7 +543,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -522,7 +562,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -552,7 +592,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -571,7 +611,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -590,7 +630,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -609,7 +649,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -627,7 +667,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -646,7 +686,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -676,7 +716,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -695,7 +735,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -714,7 +754,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -733,7 +773,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -751,7 +791,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -770,7 +810,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -799,7 +839,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: "livre",
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -818,7 +858,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 10,
         banner: "https://github.com/csalles.png",
         startTime: "15:00",
@@ -837,7 +877,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 16,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -856,7 +896,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -875,7 +915,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -894,7 +934,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -925,7 +965,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 10,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -944,7 +984,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: "12",
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -963,7 +1003,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: "livre",
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -982,7 +1022,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1001,7 +1041,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1020,7 +1060,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1050,7 +1090,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1069,7 +1109,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 14,
         banner: "https://github.com/csalles.png",
         startTime: "15:30",
@@ -1088,7 +1128,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 18,
         banner: "https://github.com/csalles.png",
         startTime: "16:45",
@@ -1107,7 +1147,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1126,7 +1166,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1145,7 +1185,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1176,7 +1216,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1195,7 +1235,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1214,7 +1254,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1233,7 +1273,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1252,7 +1292,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1271,7 +1311,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1300,7 +1340,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1319,7 +1359,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1338,7 +1378,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1357,7 +1397,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1375,7 +1415,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1394,7 +1434,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1424,7 +1464,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1443,7 +1483,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1462,7 +1502,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1481,7 +1521,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1499,7 +1539,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1518,7 +1558,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1540,7 +1580,6 @@ export const emissoras = {
   },
 
 
-
   puc: {
     name: "puc",
     icon: PucIcon,
@@ -1550,7 +1589,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1569,7 +1608,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1588,7 +1627,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1607,7 +1646,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1625,7 +1664,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1644,7 +1683,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1676,7 +1715,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1695,7 +1734,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1714,7 +1753,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1733,7 +1772,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1751,7 +1790,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1770,7 +1809,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1785,7 +1824,62 @@ export const emissoras = {
         advice: "Assista agora!",
         icon: GloboEsporteIcon
       },
+      {
+        title: "Titulo do programa",
+        summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
+        blcoked: false,
+        rating: 12,
+        banner: "https://github.com/csalles.png",
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "telejornalismo",
+        availableUntil: "28/07/2024",
+        video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GloboEsporteIcon
+      },
 
+      {
+        title: "Titulo do programa",
+        summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
+        blcoked: false,
+        rating: 12,
+        banner: "https://github.com/csalles.png",
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "telejornalismo",
+        availableUntil: "28/07/2024",
+        video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GloboEsporteIcon
+      },
+
+      {
+        title: "Titulo do programa",
+        summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
+        blcoked: false,
+        rating: 12,
+        banner: "https://github.com/csalles.png",
+        startTime: "14:00",
+        endTime: "15:00",
+        downloadable: true,
+        genre: "telejornalismo",
+        availableUntil: "28/07/2024",
+        video: "https://www.youtube.com/embed/6jtOBIICfJc?si=WakjsvqLFcty-bWJ",
+        broadcaster: "tvBrasil",
+        isLive: true,
+        isOnAir: false,
+        advice: "Assista agora!",
+        icon: GloboEsporteIcon
+      },
     ],
     related: [0, 1, 2, 3, 4]
 
@@ -1800,7 +1894,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1819,7 +1913,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1838,7 +1932,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1857,7 +1951,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1875,7 +1969,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1894,7 +1988,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1924,7 +2018,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1943,7 +2037,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1962,7 +2056,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1981,7 +2075,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -1999,7 +2093,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2018,7 +2112,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2050,7 +2144,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2069,7 +2163,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2088,7 +2182,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2107,7 +2201,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2125,7 +2219,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2144,7 +2238,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2177,7 +2271,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2196,7 +2290,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2215,7 +2309,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2234,7 +2328,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2252,7 +2346,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2271,7 +2365,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2301,7 +2395,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2320,7 +2414,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2339,7 +2433,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2358,7 +2452,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2376,7 +2470,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2395,7 +2489,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2425,7 +2519,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2444,7 +2538,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2463,7 +2557,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2482,7 +2576,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2500,7 +2594,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2519,7 +2613,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2549,7 +2643,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2568,7 +2662,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2587,7 +2681,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2606,7 +2700,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2624,7 +2718,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2643,7 +2737,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2673,7 +2767,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2692,7 +2786,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2711,7 +2805,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2730,7 +2824,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2748,7 +2842,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2767,7 +2861,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2797,7 +2891,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2816,7 +2910,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2835,7 +2929,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2854,7 +2948,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2872,7 +2966,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2891,7 +2985,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2921,7 +3015,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2940,7 +3034,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2959,7 +3053,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2978,7 +3072,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -2996,7 +3090,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3015,7 +3109,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3045,7 +3139,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3064,7 +3158,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3083,7 +3177,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3102,7 +3196,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3120,7 +3214,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3139,7 +3233,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3169,7 +3263,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3188,7 +3282,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3207,7 +3301,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3226,7 +3320,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3244,7 +3338,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3263,7 +3357,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3293,7 +3387,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3312,7 +3406,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3331,7 +3425,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3350,7 +3444,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3368,7 +3462,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3387,7 +3481,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3417,7 +3511,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3436,7 +3530,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3455,7 +3549,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3474,7 +3568,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3492,7 +3586,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3511,7 +3605,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3541,7 +3635,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3560,7 +3654,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3579,7 +3673,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3598,7 +3692,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3616,7 +3710,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3635,7 +3729,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3665,7 +3759,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3684,7 +3778,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3703,7 +3797,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3722,7 +3816,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3740,7 +3834,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3759,7 +3853,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3789,7 +3883,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3808,7 +3902,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3827,7 +3921,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3846,7 +3940,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3864,7 +3958,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3883,7 +3977,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3913,7 +4007,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3932,7 +4026,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3951,7 +4045,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3970,7 +4064,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -3988,7 +4082,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4007,7 +4101,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4037,7 +4131,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4056,7 +4150,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4075,7 +4169,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4094,7 +4188,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4112,7 +4206,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4131,7 +4225,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4161,7 +4255,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4180,7 +4274,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4199,7 +4293,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4218,7 +4312,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4236,7 +4330,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4255,7 +4349,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4285,7 +4379,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4304,7 +4398,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4323,7 +4417,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4342,7 +4436,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4360,7 +4454,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4379,7 +4473,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4409,7 +4503,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4428,7 +4522,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4447,7 +4541,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4466,7 +4560,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4484,7 +4578,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4503,7 +4597,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4533,7 +4627,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4552,7 +4646,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4571,7 +4665,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4590,7 +4684,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4608,7 +4702,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4627,7 +4721,7 @@ export const emissoras = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4660,7 +4754,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4679,7 +4773,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4698,7 +4792,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4717,7 +4811,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4735,7 +4829,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4754,7 +4848,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4783,7 +4877,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4802,7 +4896,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4821,7 +4915,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4840,7 +4934,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4858,7 +4952,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4877,7 +4971,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4906,7 +5000,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4925,7 +5019,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4944,7 +5038,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4963,7 +5057,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -4981,7 +5075,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5000,7 +5094,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5029,7 +5123,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5048,7 +5142,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5067,7 +5161,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5086,7 +5180,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5104,7 +5198,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5123,7 +5217,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5152,7 +5246,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5171,7 +5265,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5190,7 +5284,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5209,7 +5303,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5227,7 +5321,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5246,7 +5340,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5275,7 +5369,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5294,7 +5388,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blocked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5313,7 +5407,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5332,7 +5426,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5350,7 +5444,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5369,7 +5463,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5398,7 +5492,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5417,7 +5511,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5436,7 +5530,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5455,7 +5549,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5473,7 +5567,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5492,7 +5586,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5521,7 +5615,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5540,7 +5634,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5559,7 +5653,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5578,7 +5672,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5596,7 +5690,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5615,7 +5709,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5644,7 +5738,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5663,7 +5757,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5682,7 +5776,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5701,7 +5795,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5719,7 +5813,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5738,7 +5832,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5767,7 +5861,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5786,7 +5880,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5805,7 +5899,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5824,7 +5918,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5842,7 +5936,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5861,7 +5955,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5890,7 +5984,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5909,7 +6003,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5928,7 +6022,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5947,7 +6041,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5965,7 +6059,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -5984,7 +6078,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -6013,7 +6107,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -6032,7 +6126,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -6051,7 +6145,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -6070,7 +6164,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -6088,7 +6182,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
@@ -6107,7 +6201,7 @@ export const initialBroadcasters = {
       {
         title: "Titulo do programa",
         summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, odit! Alias nam dolorem iure? Natus optio enim fugit nisi corrupti mollitia itaque vel tempora perspiciatis quod, repudiandae qui vero adipisci. Sapiente asperiores quo quaerat ut nihil aut nesciunt quas, dolor assumenda.",
-        blocked: true,
+        blcoked: false,
         rating: 12,
         banner: "https://github.com/csalles.png",
         startTime: "14:00",
