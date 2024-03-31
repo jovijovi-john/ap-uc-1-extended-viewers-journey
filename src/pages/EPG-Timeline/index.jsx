@@ -233,7 +233,7 @@ export default function EPGTimeline() {
               {emissorasValues.map((emissora, indexEmissora) => {
                 return <div className="h-[200px]  w-full " key={indexEmissora}>
                   <div className="flex h-full gap-1 ">
-                    {emissora.programs.slice(0, 9).map((programa, indexPrograma) => {
+                    {emissora.programs.slice(0, 6).map((programa, indexPrograma) => {
                       return (
                         <ProgramDynamicSize
                           key={indexPrograma}
