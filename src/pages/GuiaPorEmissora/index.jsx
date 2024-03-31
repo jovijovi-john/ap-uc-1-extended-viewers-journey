@@ -119,8 +119,10 @@ export default function GuiaPorEmissora() {
 
                 {/* Radiodifusor */}
                 <ScaleFocusHover createReference={createReference} classNames={"flex flex-col p-4 gap-4 rounded text-white min-w-44 items-center"} onClick={() => navigate("/GuiaRadiodifusor")}>
-                  <img src={TvIcon} alt="" />
-                  <p className='text-lg'>Radiodifusor {indexCanal + 1}</p>
+                  <div className='w-[240px] h-[150px] rounded-lg overflow-hidden bg-white'>
+                    <img src={canal.icon} alt="" className='object-cover w-full h-full' />
+                  </div>
+                  {/* <p className='text-2xl'>{canal.name}</p> */}
                 </ScaleFocusHover>
 
                 {/* Programas */}
@@ -129,7 +131,7 @@ export default function GuiaPorEmissora() {
                     canal.programs.map((programa, indexPrograma) => {
                       return (
                         <ScaleFocusHover
-                          onClick={() => handleNavigate(programa)}
+                          // onClick={() => handleNavigate(programa)}
                           createReference={createReference}
                           key={indexPrograma}
                           classNames={"shrink-0"}
@@ -139,6 +141,7 @@ export default function GuiaPorEmissora() {
                             key={indexPrograma}
                             blocked={programa.blocked}
                             genero={programa.genre}
+                            icon={programa.icon}
                           />
                         </ScaleFocusHover>
                       )

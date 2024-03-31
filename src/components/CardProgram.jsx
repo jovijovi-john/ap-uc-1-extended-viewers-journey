@@ -6,7 +6,8 @@ import PadlockIcon from "../assets/EPG/padlock.png"
 
 import { generos } from '../configs/generos'
 
-export default function CardProgram({ genero, blocked = false, radiodifusorName }) {
+export default function CardProgram({ genero, blocked = false, radiodifusorName, icon }) {
+
 
   return (
     <div className={`
@@ -25,7 +26,12 @@ export default function CardProgram({ genero, blocked = false, radiodifusorName 
       }
 
       <div className='flex  flex-1 items-center justify-center'>
-        <img src={PlaceholderProgram} alt="" className='w-8/12 mt-4' />
+        {icon ?
+
+          <img src={icon} alt="" className='w-full h-full object-cover rounded-t-lg' />
+          :
+          <img src={PlaceholderProgram} alt="" className='w-8/12 mt-4' />
+        }
       </div>
 
       {genero &&
