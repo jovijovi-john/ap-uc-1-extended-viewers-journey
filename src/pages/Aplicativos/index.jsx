@@ -109,7 +109,7 @@ export default function Apps() {
 
   return (
     <Page>
-      <Header title='Seus aplicativos de Tv Aberta'>
+      <Header title='Seus aplicativos de Streaming'>
         <SearchBar createReference={createReference} />
 
         <Profile createReference={createReference} />
