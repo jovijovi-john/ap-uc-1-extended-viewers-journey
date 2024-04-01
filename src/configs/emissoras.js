@@ -125,7 +125,7 @@ export const emissoras = {
     name: "Tv Brasil",
     icon: TvbrasilIcon,
     slogan: "A tela da gente",
-    initialContent: 1,
+    initialContent: 3,
     programs: [
       {
         title: "Dando a real",
@@ -281,7 +281,7 @@ export const emissoras = {
 
 
     ],
-    related: [0, 2, 3, 4, 5]
+    related: [0, 1, 2, 4, 5]
 
   },
 

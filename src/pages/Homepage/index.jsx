@@ -279,7 +279,7 @@ export default function Homepage() {
           {netflixContent.map((emissora, emissoraIndex) => {
             return (
               <ScaleFocusHover
-                onClick={() => handleClickEmissora(emissora, emissoraIndex)}
+                // onClick={() => handleClickEmissora(emissora, emissoraIndex)}
                 createReference={createReferenceForRelated}
                 key={emissoraIndex}
                 classNames={`max-h-[150px] h-full rounded-lg overflow-hidden w-[242px]`}>
@@ -293,7 +293,7 @@ export default function Homepage() {
         <ScaleFocusHover
           createReference={createReference}
           classNames={"flex flex-col items-center justify-center text-white"}
-          onClick={() => navigate("/tvAberta")}>
+        >
           <BsChevronRight size={70} />
         </ScaleFocusHover>
       </div>
